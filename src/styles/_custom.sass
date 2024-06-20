@@ -10,10 +10,95 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+.crd--avatarHorizontal-left-bgr1
+  position: relative
+  align-items: stretch
+
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc(100% - 60px)
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 10px
+
+.crd--avatarHorizontal-left-bgr1::before
+  background-color: #FFEDE7
+
+.crd--avatarHorizontal-right-bgr1
+  position: relative
+  align-items: stretch
+
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    width: calc(100% - 60px)
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 10px
+
+// Gradiante para los fondos
+.grad1
+  border-radius: 10px
+  background: rgb(11,72,30)
+  background: linear-gradient(90deg, rgba(11,72,30,1) 0%, rgba(11,72,30,1) 35%, rgba(133,160,29,1) 100%)
+
+//Posicionamiento de los números
+.number
+  text-align: right
+  position: absolute
+  top: 0px
+  right: 10px
+  color: #707070
+  font-weight: bolder
+  font-size: 1.5em
+  padding: 3px
+
+//Card 
+.icon-left, .icon-right
+  display: flex
+  justify-content: center
+  align-items: center
+  width: 100px
+  height: 100px
+  position: absolute
+  top: 50%
+  transform: translateY(-50%)
+
+.icon-left
+  left: -50px
+
+.icon-right
+  right: -50px
+
+.card-cuerpo
+  padding-left: 60px
+
+.color-tarjeta
+  background: #F2F7DF
+
+// Color viñetas
+.lista-ul__vineta
+  color: #FFA686
+  font-weight: bolder
+
+.BGM02
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.acordion__activo
+  background-color: #FFF8DA
+
+.bloque-texto-b.color-acento-botones:before 
+  background-color: #FFF8DA
