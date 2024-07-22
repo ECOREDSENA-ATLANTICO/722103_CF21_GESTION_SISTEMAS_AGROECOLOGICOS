@@ -2,13 +2,16 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 47%
+    right: 82%
+    width: 40px
+    px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 45%
+    right: 25%
+    width: 20px
 
 @keyframes float1
   0%
@@ -17,7 +20,11 @@
   100%
     transform: translateY(0px)
 
-.crd--avatarHorizontal-left-bgr1
+.crd--avatarHorizontal-left-bgr1,
+.crd--avatarHorizontal-left-bgr2,
+.crd--avatarHorizontal-left-bgr3,
+.crd--avatarHorizontal-left-bgr4,
+.crd--avatarHorizontal-left-bgr5
   position: relative
   align-items: stretch
 
@@ -28,10 +35,22 @@
     right: 0
     width: calc(100% - 60px)
     height: 100%
-    background-color: #F6F6F6
+    background-color: #E9F3C7
     border-radius: 10px
 
 .crd--avatarHorizontal-left-bgr1::before
+  background-color: #FFEDE7
+
+.crd--avatarHorizontal-left-bgr2::before
+  background-color: #FFF8DA
+
+.crd--avatarHorizontal-left-bgr3::before
+  background-color: #E1EDB5
+
+.crd--avatarHorizontal-left-bgr4::before
+  background-color: #EFF3F6
+
+.crd--avatarHorizontal-left-bgr5::before
   background-color: #FFEDE7
 
 .crd--avatarHorizontal-right-bgr1
@@ -44,7 +63,7 @@
     top: 0
     width: calc(100% - 60px)
     height: 100%
-    background-color: #F6F6F6
+    background-color: #2196F3 
     border-radius: 10px
 
 // Gradiante para los fondos
@@ -102,3 +121,16 @@
 
 .bloque-texto-b.color-acento-botones:before 
   background-color: #FFF8DA
+
+.bloque-texto-f.color-secundario::before 
+  background-color: #FFF8DA
+
+
+.tabs-b__tab--active
+  background: #FFFAEB
+
+.bgr2
+  background: #FFFAEB
+
+.tabs-b__tab-inactive
+  background: #FFD5B8

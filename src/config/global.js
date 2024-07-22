@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'El enfoque metodológico del marco lógico es una herramienta potente, en el que se realizan una serie  de acciones para conocer los diferentes factores que inciden en una problemática y vislumbrar la posible solución.  Facilita el desarrollo de procesos de participación para generar estrategias y prácticas en la consecución de los  objetivos productivos y comerciales del plan de manejo agroecológico',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -13,7 +13,7 @@ export default {
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -284,12 +284,6 @@ export default {
       referencia:
         'Pacto Mundial Red Española. (2019). Empresas y derechos humanos: acciones y casos de éxito en el marco de  la Agenda 2030. Madrid: Red Española de Pacto Mundial.Recuperado el 5 de marzo de 2022.',
       link: '',
-    },
-    {
-      referencia:
-        'Practical Concepts Incorporated (PCI) (1979). The logical framework, a manager’s guide to a scientific  approach to design & evaluation.PCI',
-      link:
-        'https://www.usaid.gov/sites/default/files/documents/1865/The-Logical-Framework-A-Managers-Guide.pdf',
     },
     {
       referencia:

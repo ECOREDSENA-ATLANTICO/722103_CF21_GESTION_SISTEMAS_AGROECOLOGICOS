@@ -10,12 +10,12 @@
             img(src="@/assets/template/Arrastrar_Soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Nombre de la actividad
-        p.mb-4 #[b Objetivo] 
+          h2 Apropiación de conceptos
+        p.mb-4 #[b Recordar los conceptos de la formulación de proyectos agroecológicos bajo el Enfoque de Marco Lógico, para implementar en el sector rural] 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo de actividad
+              p.fw-bold.mb-0 Relacione la columna A con la columna B.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar

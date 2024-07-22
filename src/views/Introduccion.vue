@@ -13,7 +13,7 @@
     
     figure(data-aos="fade-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/FwusLvTYHiU?si=hBGKNR0mUqbmZpzZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .row.align-items-center.p-3.my-5.justify-content-center
       .col-auto
@@ -21,12 +21,12 @@
           img(src='@/assets/curso/temas/intro/img1.svg', alt='Imagen decorativa')
 
       .col-lg-8
-        .cajon.color-primario.p-4
+        .cajon.color-acento-botones.p-4(style="background:#FFD94715")
           p.mt-0 <strong>La Comisión Económica para América Latina (CEPAL)</strong> empieza a funcionar en <strong>1948</strong>, desde su creación la organización ha hecho aportes importantes desde las teorías y visiones socioeconómicas. Actualmente, como parte de las estrategias de apoyo a los países miembros, <strong>la comisión trabaja en torno a políticas públicas pero también a mecanismos para la gestión del desarrollo</strong> en el marco de los objetivos del desarrollo sostenible de las naciones unidas (estructurados como la “Agenda 2030 de las Naciones Unidas”). A principios de los años 60 la <strong>CEPAL</strong> crea el <strong>Instituto Latinoamericano y del Caribe de Planificación Económica y Social (ILPES)</strong>, “con el fin de apoyar a los Gobiernos de la región en el campo de la planificación y gestión pública, mediante la prestación de servicios de capacitación, asesoría e investigación” (CEPAL, 2021). El ILPES en sus distintas publicaciones acerca de la metodología de marco lógico, enuncia que en la gestión de proyectos se puede presentar la ausencia de direccionamiento estratégico enfocado al desarrollo integral de las regiones o de las instituciones, evidente en la falta de claridad en los objetivos y metas mayores, lo que conlleva a varios problemas, como la asignación caprichosa y descoordinada de recursos ante la incapacidad de los evaluadores de argumentar las fallas.
     
     .row.my-4.align-items-center
       .col-lg-8(data-aos="fade-left")
-        p.my-2 El uso de la <strong>MML (Matriz de marco lógico)</strong> tiene su origen en el desarrollo de técnicas de “gerencia por objetivos” (MBO), propuesto por <strong>Peter Drucker en 1954</strong>. El Enfoque de Marco Lógico (EML), facilita la integración de los componentes de un proyecto, dándole coherencia a todas sus partes y proporcionando eficacia “técnico-funcional” indistintamente del nivel en el que se planteen. <strong>El enfoque sistémico que permite la coherencia del proyecto también ofrece la articulación global de distintos estamentos</strong>, un orden tanto vertical como horizontal entre los niveles estratégicos, tácticos y operacionales estableciendo una lectura secuencial y lógica en el tiempo, compatible con el concepto de “ciclo del proyecto” también llamado comúnmente “ciclo de vida” (preinversión-inversión-operación), dado el desarrollo de todo un paquete de herramientas complementarias que ayudan a organizar la información y a aplicar los conceptos de la metodología (Ortegón et al. 2005). En es el año de 1979 que la <strong>Agencia para el Desarrollo Internacional de los Estados Unidos (USAID)</strong> divulga oficialmente el enfoque de marco lógico a través de la publicación “The Logical Framework”, como una herramienta eficaz para la gestión de la información requerida en la formulación de proyectos, respondiendo a tres necesidades identificadas y explícitas en la publicación de la metodología en ese entonces: una planeación demasiado “vaga”, la falta de claridad en las responsabilidades y la dificultad del proceso de evaluación.
+        p.my-2 El uso de la <strong>MML (Matriz de marco lógico)</strong> tiene su origen en el desarrollo de técnicas de “gerencia por objetivos” (MBO), propuesto por <strong>Peter Drucker en 1954</strong>. El Enfoque de Marco Lógico (EML), facilita la integración de los componentes de un proyecto, dándole coherencia a todas sus partes y proporcionando eficacia “técnico-funcional” indistintamente del nivel en el que se planteen. <strong>El enfoque sistémico que permite la coherencia del proyecto también ofrece la articulación global de distintos estamentos</strong>, un orden tanto vertical como horizontal entre los niveles estratégicos, tácticos y operacionales estableciendo una lectura secuencial y lógica en el tiempo, compatible con el concepto de “ciclo del proyecto” también llamado comúnmente “ciclo de vida” (preinversión-inversión-operación), dado el desarrollo de todo un paquete de herramientas complementarias que ayudan a organizar la información y a aplicar los conceptos de la metodología (Ortegón et al. 2005). En es el año de 1979 que la <strong>Agencia para el Desarrollo Internacional de los Estados Unidos (USAID)</strong> divulga oficialmente el enfoque de marco lógico a través de la publicación <strong>“The Logical Framework”</strong>, como una herramienta eficaz para la gestión de la información requerida en la formulación de proyectos, respondiendo a tres necesidades identificadas y explícitas en la publicación de la metodología en ese entonces: una planeación demasiado “vaga”, la falta de claridad en las responsabilidades y la dificultad del proceso de evaluación.
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/intro/img2.svg', alt='Imagen decorativa')
@@ -35,50 +35,60 @@
       .tarjeta--container.row.mb-5
         .col-md.tarjeta.color-acento-botones.p-4(style='background: #E1EDB5')
           figure
-            img(src='@/assets/curso/temas/intro/img3.svg', alt='Imagen decorativa', width="150px", height="150px")
+            img(data-aos="zoom-in",src='@/assets/curso/temas/intro/img3.svg', alt ="Muestra las necesidades a las cuales da respuesta el Enfoque de Marco Lógico: Una descripción clara, explícita y medible de lo que sucederá si el proyecto es exitoso. El esclarecimiento de la responsabilidad de la gerencia del proyecto y el porqué de esto. La visualización de los elementos clave de diseño del proyecto y sus relaciones entre sí de manera que facilita el análisis. Cambiando el enfoque de búsqueda de culpables a un enfoque de búsqueda del plan más realista para el logro de los objetivos según la evidencia disponible en el momento (PCI, 1979).", width="150px", height="150px")
           p.my-2 <strong>Una descripción clara, explícita y medible</strong> de lo que sucederá si el proyecto es exitoso.
       
         .col-md.tarjeta.color-acento-botones.p-4(style='background: #FFF8DA')
           figure
-            img(src='@/assets/curso/temas/intro/img4.svg', alt='Imagen decorativa', width="150px", height="150px")
+            img(data-aos="zoom-in",src='@/assets/curso/temas/intro/img4.svg', alt='Imagen decorativa', width="150px", height="150px")
           p.my-2 El esclarecimiento de <strong>la responsabilidad de la gerencia del proyecto</strong> y el porqué de esto.
         .col-md.tarjeta.color-acento-botones.p-4(style='background: #E1EDB5')
           figure
-            img(src='@/assets/curso/temas/intro/img5.svg', alt='Imagen decorativa', width="150px", height="150px")
+            img(data-aos="zoom-in",src='@/assets/curso/temas/intro/img5.svg', alt='Imagen decorativa', width="150px", height="150px")
           p.my-2 <strong>La visualización de los elementos clave de diseño del proyecto</strong> y sus relaciones entre sí de manera que facilita el análisis.
         .col-md.tarjeta.color-acento-botones.p-4(style='background: #FFF8DA')
           figure
-            img(src='@/assets/curso/temas/intro/img6.svg', alt='Imagen decorativa', width="150px", height="150px")
+            img(data-aos="zoom-in",src='@/assets/curso/temas/intro/img6.svg', alt='Imagen decorativa', width="150px", height="150px")
           p.my-2 Cambiando el enfoque de búsqueda de culpables a un enfoque de <strong>búsqueda del plan más realista</strong> para el logro de los objetivos según la evidencia disponible en el momento (PCI, 1979).
 
     .row.my-3.align-items-center
       .col-lg-4
         figure
-          img(src='@/assets/curso/temas/intro/img7.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/intro/img7.png', alt='Imagen decorativa')
       .col-lg-8(data-aos="fade-left")
         p.my-2 Ya en el año 1983 la <strong>Agencia para la Cooperación Técnica Alemana (GTZ)</strong> plantea una variante metodológica denominada <strong>ZOPP (planificación de proyectos orientada a objetivos)</strong> con la finalidad de: 
 
-        ul
-          li Lograr una definición realista y clara de los objetivos en una perspectiva a largo plazo.
-          li Mejorar la comunicación y cooperación entre las partes implicadas a través de una planificación conjunta, utilizando documentos precisos y definiciones claras.
-          li Definir el área de responsabilidad del equipo del proyecto.
-          li Establecer indicadores para el seguimiento y la evaluación.
-        .cajon.color-primario.p-4
+        ul.lista-ul
+          li 
+            i.lista-ul__vineta 
+            | Lograr una definición realista y clara de los objetivos en una perspectiva a largo plazo.
+          li
+            i.lista-ul__vineta 
+            |  Mejorar la comunicación y cooperación entre las partes implicadas a través de una planificación conjunta, utilizando documentos precisos y definiciones claras.
+          li 
+            i.lista-ul__vineta 
+            |   Definir el área de responsabilidad del equipo del proyecto.
+          li
+            i.lista-ul__vineta 
+            |  Establecer indicadores para el seguimiento y la evaluación.
+        .cajon.color-secundario.p-4
           p.mt-0 Esta adaptación ofrece modificaciones muy útiles, porque ha tenido un destacable éxito en su aplicación y una gran aceptación en todos los entornos que la han adoptado.
         
-    .row.my-5  
-      .bloque-texto-a.color-acento-contenido.p-4
-        .bloque-texto-b__texto
-          i.fas.fa-quote-left
-          p.mb-0  Organismos de crédito tales como el Banco Interamericano de Desarrollo –BID, el Asian Development Bank– ADB o el Banco Mundial; agencias cooperantes tales como la Deutsche Gesellschaft für Technische Zusammenarbeit – GTZ (Empresa alemana de cooperación internacional para el desarrollo sostenible), la Australian Agency for International Development - AusAid (Agencia australiana para el desarrollo internacional) o la Canadian International Development Agency – CIDA (Agencia Canadiense de Desarrollo Internacional) han impulsado el uso de la <strong>Matriz de Marco Lógico - MML como parte de sus metodologías de preparación y evaluación de proyectos.</strong>
-          span.text-bold  (Aldunate, E., 2004). 
+    .row.align-items-center.my-3
+      .col-lg-10.m-auto
+        .bloque-texto-f.color-secundario.pt-4.px-5
+          .bloque-texto-f__comillas
+            i.fas.fa-quote-left
+            i.fas.fa-quote-right
+          p.bloque-texto-f__texto Organismos de crédito tales como el Banco Interamericano de Desarrollo –BID, el Asian Development Bank– ADB o el Banco Mundial; agencias cooperantes tales como la Deutsche Gesellschaft für Technische Zusammenarbeit – GTZ (Empresa alemana de cooperación internacional para el desarrollo sostenible), la Australian Agency for International Development - AusAid (Agencia australiana para el desarrollo internacional) o la Canadian International Development Agency – CIDA (Agencia Canadiense de Desarrollo Internacional) han impulsado el uso de la <strong>Matriz de Marco Lógico - MML como parte de sus metodologías de preparación y evaluación de proyectos.</strong>
+          h3.bloque-texto-f__texto (Aldunate, E., 2004).
           i.fas.fa-quote-right
 
     .row.my-5
       .col-lg-6
         p.mb-0 En general, el EML viene teniendo cada vez más aceptación en muchos ámbitos, instituciones y países debido al <strong>significativo aporte que ofrece la metodología a la gerencia y la gestión de proyectos y programas fomentando el liderazgo, el direccionamiento estratégico, la conducción de procesos complejos y la construcción de entornos favorables</strong> (involucrando actores importantes), facilitando la toma de decisiones y la calidad de las propuestas, aplicando criterios de eficiencia en la planeación y operación, la capacidad de adaptación a circunstancias cambiantes y la implicación sin mayores traumatismos de variables difíciles de cuantificar como las de impacto social. 
       .col-lg-6
-        p.mb-0 Finalmente el enfoque metodológico de marco lógico es un medio, por lo que <strong>no podrá per se subsanar fallas en las políticas macroeconómicas o de planes maestros como los gubernamentales</strong>; además, los análisis iniciales deberán estar bien planteados para el logro de los resultados esperados con la aplicación del enfoque y esto estará condicionado por la calidad de la información y de los insumos que se disponga. En este documento se abordan <strong>los pasos iniciales para la aplicación de la metodología</strong> iniciando con las distintas herramientas complementarias que siguen un orden secuencial, hasta la construcción de la <strong>Matriz de Marco Lógico (MML)</strong>, el producto final y que resume el enfoque. 
+        p.mb-0 Finalmente el enfoque metodológico de marco lógico es un medio, por lo que <strong>no podrá per se subsanar fallas en las políticas macroeconómicas o de planes maestros como los gubernamentales</strong>; además, los análisis iniciales deberán estar bien planteados para el logro de los resultados esperados con la aplicación del enfoque y esto estará condicionado por la calidad de la información y de los insumos que se disponga. En este documento se abordan <strong> los pasos iniciales para la aplicación de la metodología</strong> iniciando con las distintas herramientas complementarias que siguen un orden secuencial, hasta la construcción de la <strong>Matriz de Marco Lógico (MML)</strong>, el producto final y que resume el enfoque. 
 
     .row.my-5
       .col-lg-10.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
