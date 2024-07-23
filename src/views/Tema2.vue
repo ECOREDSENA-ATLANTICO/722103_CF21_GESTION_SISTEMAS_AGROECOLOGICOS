@@ -225,7 +225,7 @@
 
     TabsA.color-secundario
       .tarjeta.p-4.color-tarjeta(titulo="1. Visibilizar a los <br> involucrados")
-        .row.bgr-verde-claro.p-4.bordes-redondeados.h-100
+        .row.bgr-verde-claro.p-4.bordes-redondeados
           .col-lg-7
             p.my-5 Identificar a todos los actores que pudiesen tener una relación directa o indirecta con el proyecto a alguna de sus implicaciones.
           .col-lg-5
@@ -401,7 +401,7 @@
     
     p.my-4 También ayuda a sensibilizar y motivar la participación de la población ante la posible intervención, fomenta la creatividad en las propuestas de solución y puede conllevar un alto impacto de las propuestas respetando la cultura y la forma de ser de la población, así como complementariedad con la información obtenida de fuentes secundarias. Algunos aspectos a tener en cuenta son, por un lado, la necesidad de <strong>un equipo multidisciplinario que planifique el diagnóstico</strong> y por otro de <strong>recursos y tiempo para el trabajo de campo.</strong> Según Expósito (2003), el DRP consta de siete pasos para su realización: 
 
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
       .row.align-items-center(titulo="1. Delimitar la población objetivo")
         .col-lg-8.mb-4
           p Definir el alcance y el objetivo del diagnóstico que puede ser a tres niveles, población más o menos dispersa, organizaciones rurales o empresas agropecuarias y agroindustriales propiamente dichas.
