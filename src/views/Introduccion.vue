@@ -10,7 +10,8 @@
       h1 Introducción
   
     p.mb-3 Le damos la bienvenida al componente formativo Formulación de proyectos agroecológicos bajo el enfoque de marco lógico, en el que reconocerá este enfoque como una herramienta aplicable en una problemática determinada. Para saber más sobre los aspectos más importantes que trataremos le invitamos a observar el siguiente video.
-    
+    p.mb-3 En el contexto del final de la segunda guerra mundial en 1945, se crea la más grande organización internacional, la Organización de las Naciones Unidas ONU, en respuesta a la preocupación por la paz, estabilidad y desarrollo de los países miembros y del mundo. Producto del primer período de asambleas en 1947, surge la iniciativa de conformar una comisión encargada de los temas relacionados con el desarrollo de América latina y el caribe.
+
     figure(data-aos="fade-up")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/FwusLvTYHiU?si=hBGKNR0mUqbmZpzZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -21,7 +22,7 @@
           img(src='@/assets/curso/temas/intro/img1.svg', alt='Imagen decorativa')
 
       .col-lg-8
-        .cajon.color-acento-botones.p-4(style="background:#FFD94715")
+        .cajon.color-acento-botones.p-4.my-3(style="background:#FFD94715")
           p.mt-0 <strong>La Comisión Económica para América Latina (CEPAL)</strong> empieza a funcionar en <strong>1948</strong>, desde su creación la organización ha hecho aportes importantes desde las teorías y visiones socioeconómicas. Actualmente, como parte de las estrategias de apoyo a los países miembros, <strong>la comisión trabaja en torno a políticas públicas pero también a mecanismos para la gestión del desarrollo</strong> en el marco de los objetivos del desarrollo sostenible de las naciones unidas (estructurados como la “Agenda 2030 de las Naciones Unidas”). A principios de los años 60 la <strong>CEPAL</strong> crea el <strong>Instituto Latinoamericano y del Caribe de Planificación Económica y Social (ILPES)</strong>, “con el fin de apoyar a los Gobiernos de la región en el campo de la planificación y gestión pública, mediante la prestación de servicios de capacitación, asesoría e investigación” (CEPAL, 2021). El ILPES en sus distintas publicaciones acerca de la metodología de marco lógico, enuncia que en la gestión de proyectos se puede presentar la ausencia de direccionamiento estratégico enfocado al desarrollo integral de las regiones o de las instituciones, evidente en la falta de claridad en los objetivos y metas mayores, lo que conlleva a varios problemas, como la asignación caprichosa y descoordinada de recursos ante la incapacidad de los evaluadores de argumentar las fallas.
     
     .row.my-4.align-items-center
@@ -31,6 +32,8 @@
         figure
           img(src='@/assets/curso/temas/intro/img2.svg', alt='Imagen decorativa')
     
+      p.my-3  El enfoque de marco lógico (The Logical framework Approach) responde específicamente a estas necesidades, propendiendo desde el inicio de la formulación a:
+
     .row.my-3
       .tarjeta--container.row.mb-5
         .col-md.tarjeta.color-acento-botones.p-4(style='background: #E1EDB5')
@@ -60,18 +63,18 @@
 
         ul.lista-ul
           li 
-            i.lista-ul__vineta 
+            i.lista-ul__vineta(style="color: black") 
             | Lograr una definición realista y clara de los objetivos en una perspectiva a largo plazo.
           li
-            i.lista-ul__vineta 
+            i.lista-ul__vineta(style="color: black") 
             |  Mejorar la comunicación y cooperación entre las partes implicadas a través de una planificación conjunta, utilizando documentos precisos y definiciones claras.
           li 
-            i.lista-ul__vineta 
+            i.lista-ul__vineta(style="color: black") 
             |   Definir el área de responsabilidad del equipo del proyecto.
           li
-            i.lista-ul__vineta 
+            i.lista-ul__vineta(style="color: black") 
             |  Establecer indicadores para el seguimiento y la evaluación.
-        .cajon.color-secundario.p-4
+        .cajon.color-secundario.p-4.my-3
           p.mt-0 Esta adaptación ofrece modificaciones muy útiles, porque ha tenido un destacable éxito en su aplicación y una gran aceptación en todos los entornos que la han adoptado.
         
     .row.align-items-center.my-3

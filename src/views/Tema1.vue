@@ -20,19 +20,19 @@
         figure(data-aos="slide-down")
           img(src="@/assets/curso/temas/tema1/img2.png", alt="Imagen decorativa")
       .col-lg-8
-        p.text-bold <strong>El EML se puede usar en todas las etapas del proyecto, sea para el análisis de macropolíticas de desarrollo, del contexto de una actividad productiva en un momento y lugar dados, en la formulación de los proyectos, la valoración o evaluación, ejecución y/o desempeño de estos (PCI, 1979).</strong> 
+        p.text-bold.my-3 <strong>El EML se puede usar en todas las etapas del proyecto, sea para el análisis de macropolíticas de desarrollo, del contexto de una actividad productiva en un momento y lugar dados, en la formulación de los proyectos, la valoración o evaluación, ejecución y/o desempeño de estos (PCI, 1979).</strong> 
         p Este documento se enfocará en la primera parte del ciclo del proyecto, correspondiente al diseño, que abarca dos etapas, el análisis y la planificación.
 
         .row.my-2
           .col-lg-10.m-auto
             figure(data-aos="flip-left")
-              img(src="@/assets/curso/temas/tema1/img3.svg", alt="Muestra el Marco lógico y ciclo de vida del proyecto. Diseño, Ejecución, Evaluación")
+              img.my-3(src="@/assets/curso/temas/tema1/img3.svg", alt="Muestra el Marco lógico y ciclo de vida del proyecto. Diseño, Ejecución, Evaluación")
             
             span Figura 1. 
             strong Marco lógico y ciclo de vida del proyecto. 
             span lógico y ciclo de vida del proyecto. Bernal (2021).
     
-    .row.my-4.align-items-center(style="background:#FFFAEB")
+    .row.my-4.align-items-center.p-4(style="background:#FFFAEB")
       .col-lg-8.my-2
         p Además de dar respuesta a otras metodologías que presentan problemas comunes mencionados ya en la introducción, <strong>el método posee otras ventajas:</strong>
         ol.px-4.lista-ol
@@ -99,11 +99,11 @@
             .row.align-items-center.grad1.p-3
               .col-lg-2
                 figure
-                  img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+                  img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
               .col-lg-7
                 h2.text-light Anexo. Tabla 1
                 .text-light.mb-0 Actividades del enfoque de marco lógico, herramientas y resultados a obtener. Bernal (2021).
-              .col-lg-3.text-center
+              .col-lg-3.text-center.my-3
                 a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
                   span Descargar
                   i.fas.fa-file-download

@@ -126,11 +126,11 @@
             p Que se generarían dos alternativas posibles: 
             .row.my-3
               .col-lg-5.px-3
-                .p-4(style="background: white; border-radius: 10px;")
+                .p-4.my-3(style="background: white; border-radius: 10px;")
                   p.m-0.text-bold Alternativa 1
                   span Campañas e incentivos para clasificación, implementación de rutas selectivas y construcción y dotación de estación de aprovechamiento para residuos orgánicos e inorgánicos.
               .col-lg-5.px-3
-                .p-4(style="background: white; border-radius: 10px")
+                .p-4.my-3(style="background: white; border-radius: 10px")
                   p.m-0.text-bold Alternativa 2
                   span Campañas e incentivos para clasificación, implementación de rutas selectivas y construcción de planta incineradora de residuos orgánicos para generación de energía.
 
@@ -142,11 +142,11 @@
           .col(style="z-index:1")
             p.m-0 Que asumiendo un resultado negativo de un estudio de prefactibilidad para la planta incineradora y después de configurar las posibles iteraciones (combinaciones posibles) de las actividades viables, se llega a los dos objetivos ya corregidos:
             .row.my-3
-              .col-lg-5.px-3
+              .col-lg-5.px-3.my-3
                 .p-4.h-100(style="background: white; border-radius: 10px")
                   p.m-0.text-bold Objetivo 1
                   span Campañas, incentivos e implementación de rutas selectivas.
-              .col-lg-5.px-3
+              .col-lg-5.px-3.my-3
                 .p-4(style="background: white; border-radius: 10px")
                   p.m-0.text-bold Objetivo 2
                   span Construcción y dotación de estación de aprovechamiento para residuos orgánicos e inorgánicos con altas tasas de biodegradación.
@@ -370,16 +370,16 @@
 
     .row.my-3
       .tarjeta--container.row.mb-5
-        .col-md.tarjeta.color-acento-botones.p-4(style='background: #E1EDB5')
+        .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #E1EDB5')
           p.text-bold.m-0 Fin - Objetivo general
           | Aporte del proyecto en la solución, problema o satisfacción de una necesidad en el mediano o largo plazo.
-        .col-md.tarjeta.color-acento-botones.p-4(style='background: #FFF8DA')
+        .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #FFF8DA')
           p.text-bold.m-0 Propósito - Objetivo específico
           | Resultado único esperado al concluir el proyecto.
-        .col-md.tarjeta.color-acento-botones.p-4(style='background: #E1EDB5')
+        .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #E1EDB5')
           p.text-bold.m-0 Propósito - Objetivo específico
           | Productos y servicios que genera el proyecto y que se expresan como una realidad mejorada.
-        .col-md.tarjeta.color-acento-botones.p-4(style='background: #FFF8DA')
+        .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #FFF8DA')
           p.text-bold.m-0 Actividades
           | Grupo de tareas principales requeridas para la producción de cada resultado o componente.
     
@@ -412,8 +412,8 @@
             p Son los que miden el cambio atribuible al proyecto y los que permiten tomar decisiones sobre la necesidad de componentes adicionales. También se denominan indicadores de objetivos. Los indicadores de fin o propósito se construyen sobre la base de datos existentes. Un ejemplo de indicador de fin y de propósito sería reducir a menos de 1.000 los coliformes totales por cada 100 ml de agua en una playa específica y para un determinado año. 
           .row(numero="2" titulo="Indicadores de componentes")
             p Son descripciones breves de las obras, servicios, estudios y capacitaciones específicas que ofrece el responsable del proyecto, especificando cantidad, calidad y tiempo. Por ejemplo para un proyecto de educación habría de señalar como indicador 10 escuelas técnicas, ubicadas en diferentes ciudades, cada una con capacidad para 1.000 alumnos por año y con el equipamiento especificado por las normas correspondientes. 
-          .row(numero="3" titulo="Indicadores de componentes")
-            p Indicadores de actividades: son los que describen la actividad que se realiza para lograr el componente y su presupuesto asignado. Varían de acuerdo con el elemento del componente que se desea medir, por lo que son diferentes para cada tipo de proyecto. Los indicadores también pueden clasificarse en directos e indirectos. 
+          .row(numero="3" titulo="Indicadores de actividades")
+            p Son los que describen la actividad que se realiza para lograr el componente y su presupuesto asignado. Varían de acuerdo con el elemento del componente que se desea medir, por lo que son diferentes para cada tipo de proyecto. Los indicadores también pueden clasificarse en directos e indirectos. 
             p.px-4 a. Indicadores directos: son los que comprenden las variables directamente relacionadas al objetivo a medir. Por ejemplo, si el objetivo es reducir la mortalidad, un indicador apropiado podría ser la tasa de mortalidad infantil en tanto por mil. 
             p.px-4 b. Indicadores indirectos: también llamados indicadores proxy, son formas aproximadas de medir determinados objetivos. En ellos la variable utilizada no tiene una relación directa con el objetivo que se busca medir” (FAO, 2017).
             .row.align-items-center
@@ -544,23 +544,23 @@
           img(src='@/assets/curso/temas/tema3/img17.png', alt='Imagen decorativa')
 
     .tabla-b.color-acento-contenido.mb-5
-    table
-      thead
-        tr(style='background-color: #FF8C69')
-          th Tipo (Físico, ergonómico, logístico, biológico, químico, psicosocial, climático, político, legal, logístico, etc.)
-          th Riesgo (Descripción)
-          th Probabilidad de ocurrencia (Rango de 1 a 5, donde: 1=muy baja; 2=baja; 3=media; 4=alta; 5=muy alta)
-          th Gravedad del impacto (Rango de 1 a 5, donde: 1=despreciable; 2=considerable; 3=importante; 4=grave; 5=catatrófica)
-          th Valor del Riesgo (Probabilidad x gravedad)
-          th Nivel de Riesgo (Ubicar en la matriz de riesgos)
-      tbody
-        tr.text-center
-          td Climático
-          td Prolongación de las épocas de lluvias más allá de la tercera semana de inicio del ciclo productivo y efecto de las heladas en las primeras cinco semanas.
-          td 3
-          td 4
-          td 20
-          td Crítico
+      table
+        thead
+          tr(style='background-color: #FF8C69')
+            th Tipo (Físico, ergonómico, logístico, biológico, químico, psicosocial, climático, político, legal, logístico, etc.)
+            th Riesgo (Descripción)
+            th Probabilidad de ocurrencia (Rango de 1 a 5, donde: 1=muy baja; 2=baja; 3=media; 4=alta; 5=muy alta)
+            th Gravedad del impacto (Rango de 1 a 5, donde: 1=despreciable; 2=considerable; 3=importante; 4=grave; 5=catatrófica)
+            th Valor del Riesgo (Probabilidad x gravedad)
+            th Nivel de Riesgo (Ubicar en la matriz de riesgos)
+        tbody
+          tr
+            td Climático
+            td Prolongación de las épocas de lluvias más allá de la tercera semana de inicio del ciclo productivo y efecto de las heladas en las primeras cinco semanas.
+            td 3
+            td 4
+            td 20
+            td Crítico
     p.text-center Tabla 12. Ejemplos de análisis de riesgos
 
     .row.mt-5.mb-4.align-items-center
@@ -573,9 +573,9 @@
     .row.mt-5.mb-4.align-items-center
       .col-lg-4
         figure 
-          img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
+          img.my-3(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
       .col.lg-8
-        p El anterior análisis de riesgos contempla lo que <strong>no debe ocurrir</strong> para que el proyecto se desarrolle como se ha planeado. En el caso de los supuestos se establecen las condiciones y requisitos para que se puedan realizar las actividades, lograr los objetivos y cumplir finalmente con el propósito del proyecto. Es por estas razones que este análisis se hace <strong>posteriormente a la definición de los indicadores y el desglose de las actividades</strong> Es importante tener en cuenta de acuerdo con Ortegón et. al (2005) la forma en que se redactan los supuestos que corresponde a la de un objetivo a alcanzar o mantener por parte de quien fuere necesario a pesar de que estos estén fuera del alcance del ejecutor del proyecto. Ejemplo:
+        p.my-3 El anterior análisis de riesgos contempla lo que <strong>no debe ocurrir</strong> para que el proyecto se desarrolle como se ha planeado. En el caso de los supuestos se establecen las condiciones y requisitos para que se puedan realizar las actividades, lograr los objetivos y cumplir finalmente con el propósito del proyecto. Es por estas razones que este análisis se hace <strong>posteriormente a la definición de los indicadores y el desglose de las actividades</strong> Es importante tener en cuenta de acuerdo con Ortegón et. al (2005) la forma en que se redactan los supuestos que corresponde a la de un objetivo a alcanzar o mantener por parte de quien fuere necesario a pesar de que estos estén fuera del alcance del ejecutor del proyecto. Ejemplo:
         .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFA68625")
           h6.mt-0 “Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales” (p.89). 
     
@@ -637,11 +637,11 @@
     .row.align-items-center.grad1.my-5.p-3
       .col-lg-2
         figure
-          img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+          img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
         h2.text-light Tabla 13. Matriz de marco lógico completa con la explicación de cada apartado.
         .text-light.mb-0 Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
-      .col-lg-3.text-center
+      .col-lg-3.text-center.my-3
         a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla13.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
@@ -653,7 +653,7 @@
     .row.align-items-center.p-3.my-5
       .col-lg-4
         figure
-          img(src="@/assets/curso/temas/tema3/img24.png", alt="")
+          img.my-3(src="@/assets/curso/temas/tema3/img24.png", alt="")
       .col-lg-8
         p Una vez <strong>comprobados y validados los resultados</strong> de la aplicación de la metodología del <strong>EML</strong> en el documento final, el siguiente paso para poder dar inicio a la ejecución, consiste en tomar todas las actividades y realizar una <strong>planeación exhaustiva</strong> asignando recursos, materiales, responsables, tiempos de ejecución y demás información necesaria que de manera anticipada sea útil para la correcta ejecución del proyecto; además, e<strong>l presupuesto deberá estar detallado</strong>+
          en otro documento que contendrá toda la información del manejo y seguimiento a la ejecución del mismo.

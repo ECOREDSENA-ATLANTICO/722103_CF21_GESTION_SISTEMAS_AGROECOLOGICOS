@@ -26,12 +26,12 @@
         .row.align-items-center.grad1.p-3
           .col-lg-2
             figure
-              img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+              img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
           .col-lg-7
             h2.text-light ODS - Objetivos Desarrollo Sostenible
             .text-light.mb-0 Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de las naciones unidas, diríjase a:
-          .col-lg-3.text-center
-            a.boton.color-acento-botones(href='https://www.undp.org/es/sustainable-development-goals' target="_blank" type="application/pdf")
+          .col-lg-3.text-center.my-3
+            a.boton.color-acento-botones(href='https://www.un.org/sustainabledevelopment/es/2015/09/la-asamblea-general-adopta-la-agenda-2030-para-el-desarrollo-sostenible/' target="_blank" type="application/pdf")
               span Ir a sitio
               i.fas.fa-link
       .col-lg-4.mb-4
@@ -204,11 +204,11 @@
     .row.align-items-center.grad1.p-3
       .col-lg-2
         figure
-          img(data-aos="zoom-out-right",src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+          img.my-3(data-aos="zoom-out-right",src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
         h2.text-light FAO - Organización de las Naciones Unidas para la Alimentación y la Agricultura
         .text-light.mb-0 Para la revisión de una excelente fuente de información sobre el desarrollo rural, la investigación y la tecnología al servicio de la ruralidad en el mundo, diríjase a:
-      .col-lg-3.text-center
+      .col-lg-3.text-center.my-3
         a.boton.color-acento-botones(href='https://www.fao.org/publications/es/' target="_blank" type="application/pdf")
           span Ir a sitio
           i.fas.fa-link
@@ -256,11 +256,11 @@
     .row.align-items-center.grad1.p-3.my-4
       .col-lg-2
         figure
-          img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+          img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
         h2.text-light Tabla 2. Ejemplo de herramienta de análisis de involucrados. Bernal (2021).
         .text-light.mb-0 Un ejemplo de una herramienta de análisis sencillo, que podemos llamar “resumen de participación” es el siguiente:
-      .col-lg-3.text-center
+      .col-lg-3.text-center.my-3
         a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla2.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
@@ -271,16 +271,16 @@
         .row.align-items-center.grad1.p-3
           .col-lg-2
             figure
-              img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+              img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
           .col-lg-7
             h2.text-light Análisis de Involucrados
             .text-light.mb-0 Para la revisión de una herramienta más completa de análisis de involucrados incluyendo la aplicación de la matriz de expectativa-fuerza con ejemplos ilustrativos, diríjase a:
-          .col-lg-3.text-center
+          .col-lg-3.text-center.my-3
             a.boton.color-acento-botones(href='https://ecored-sena.github.io/TECNICO_AGROPECUARIO_CF2/public/media/documentos/IF04_INVOLUCRADOS.pdf' target="_blank" type="application/pdf")
               span Ir a sitio
               i.fas.fa-link
 
-      .col-lg-4.mb-2
+      .col-lg-4.mb-2.my-3
         figure
           img(src='@/assets/curso/temas/tema2/img37.png', alt='Imagen decorativa')
 
@@ -351,19 +351,19 @@
       div.p-4.BGM02(style="background: #EFF3F6")
         ul.lista-ul.px-5
           li 
-            i.lista-ul__vineta 
+            i.lista-ul__vineta(style="color: black") 
             | <strong>Impactos ambientales adversos </strong> de las actividades productivas en todos los sectores de la economía.
           li 
-            i.lista-ul__vineta 
+            i.lista-ul__vineta(style="color: black") 
             | <strong>Efectos directos o indirectos </strong> del conflicto armado o del dominio territorial de grupos armados.
           li 
-            i.lista-ul__vineta 
+            i.lista-ul__vineta(style="color: black") 
             | <strong>Efectos regresivos</strong> de políticas de desarrollo o coyunturales.
           li 
-            i.lista-ul__vineta 
+            i.lista-ul__vineta(style="color: black") 
             | <strong>Consecuencias socioeconómicas</strong> derivadas de la pandemia por el virus Sars-COV-2.
           li 
-            i.lista-ul__vineta 
+            i.lista-ul__vineta(style="color: black") 
             | <strong>Aspectos inherentes a los efectos acumulados por décadas</strong> en cuanto a la concentración de la riqueza y la tierra, la pauperización del campesinado, el envejecimiento de la población rural, la migración masiva hacia las urbes, el deterioro del tejido social en la ruralidad, el despojo de la tierra, la capacidad productiva, los derechos y hasta los valores de la cultura rural, el desvanecimiento del relevo y empalme generacional, el rezago educativo para la población rural, el escaso acceso a los factores productivos y la tecnología para la productividad, la ausencia del estado y los programas sociales de los gobiernos en especial en la periferia, la inseguridad alimentaria y el hambre y malnutrición derivados de ésta, la inequidad de género, el deterioro del suelo aprovechable, los efectos del cambio climático sobre los ecosistemas por causas antrópicas, la huella de carbono generada por actividades como la ganadería extensiva, la contaminación de fuentes de agua, la ampliación de la frontera agrícola hacia zonas de reserva protegidas, el debilitamiento de la ciudadanía participativa, la lentitud en la migración hacia fuentes de energía renovables, la escasa infraestructura productiva para las actividades agropecuarias, entre otros.
 
     Separador
@@ -381,69 +381,73 @@
 
     p.my-4 El extensionismo agropecuario, actividad que data del <strong>siglo XIX en Estados Unidos y Europa como una iniciativa de atención a la ruralidad desde los gobiernos con el apoyo del sector privado</strong>, especialmente el productor de tecnología, ha logrado avances muy interesantes y exitosos en el diseño y ejecución de procesos de intervención integrales más que asistenciales. Uno de los casos destacados en Colombia y la región es la <strong>Federación Nacional de Cafeteros</strong> Producto de estas experiencias fortalecidas se encuentran metodologías centradas en la participación de la población, como el <strong>Diagnóstico Rural Participativo (DRP)</strong> y la planificación comunitaria, entre otros ejercicios como los realizados por el <strong>Servicio Nacional de Aprendizaje (SENA)</strong> en sus modelos de intervención hechos hasta la década de los años 90 (por efectos de las políticas coyunturales) a partir de los programas <strong>“Capacitación para la Participación Campesina (CAPACA)”,  “capacitación empresarial campesina”, “la capacitación para la organización y participación comunitaria”, “programa de extensión rural del convenio SENA-Gobierno de Holanda”</strong> y el trabajo  <strong>“SENA-Escuela Nacional de Formación Campesina ANUC-ENFOCA”</strong>, estrategias con productos que se pueden consultar en los repositorios institucionales. 
 
-    .row.align-items-center.my-4
-      .col-lg-10.m-auto
-        .bloque-texto-f.color-secundario.pt-4.px-5
-          .bloque-texto-f__comillas
-            i.fas.fa-quote-left
-            p.bloque-texto-f__texto El DRP, es una actividad participativa que permite la identificación de los principales problemas técnicos productivos, sociales y de organización para lograr la convivencia con los productores. Con el fin de conocer más de cerca los diferentes aspectos de la comunidad, generando la información básica para la elaboración de los planes de acción comunitaria
-            h3.bloque-texto-f__texto  (DNP, 2016, p.15)
-            i.fas.fa-quote-right     
+    figure(data-aos="fade-up")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ha2nZfL8nEg?si=OUBV5e5H7TJW-3G_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
-    .row.my-3
-      .col-lg-10.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
-        .row.align-items-center
-          .col-auto(style="z-index:1")
-            figure
-              img(src="@/assets/curso/temas/tema2/img46.svg", alt="", width= "100px", height="100px")
-          .col(style="z-index:1")
-            p.m-0 El <strong>DRP</strong> es una metodología recomendable para la <strong>autogestión del desarrollo de las comunidades, lo que supone también la autodeterminación, un valor importante de resaltar</strong> Posee de manera inherente ventajas que dependen directamente del grado de participación de los involucrados, entre las que se encuentran la <strong>eficacia en el levantamiento de datos de campo, la verificabilidad, confiabilidad, profundidad y suficiencia de la información obtenida.</strong>
+    //- .row.align-items-center.my-5
+    //-   .col-lg-10.m-auto
+    //-     .bloque-texto-f.color-secundario.pt-4.px-5
+    //-       .bloque-texto-f__comillas
+    //-         i.fas.fa-quote-left
+    //-         p.bloque-texto-f__texto El DRP, es una actividad participativa que permite la identificación de los principales problemas técnicos productivos, sociales y de organización para lograr la convivencia con los productores. Con el fin de conocer más de cerca los diferentes aspectos de la comunidad, generando la información básica para la elaboración de los planes de acción comunitaria
+    //-         h3.bloque-texto-f__texto  (DNP, 2016, p.15)
+    //-         i.fas.fa-quote-right     
+
+    //- .row.my-3
+    //-   .col-lg-10.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
+    //-     .row.align-items-center
+    //-       .col-auto(style="z-index:1")
+    //-         figure
+    //-           img(src="@/assets/curso/temas/tema2/img46.svg", alt="", width= "100px", height="100px")
+    //-       .col(style="z-index:1")
+    //-         p.m-0 El <strong>DRP</strong> es una metodología recomendable para la <strong>autogestión del desarrollo de las comunidades, lo que supone también la autodeterminación, un valor importante de resaltar</strong> Posee de manera inherente ventajas que dependen directamente del grado de participación de los involucrados, entre las que se encuentran la <strong>eficacia en el levantamiento de datos de campo, la verificabilidad, confiabilidad, profundidad y suficiencia de la información obtenida.</strong>
     
-    p.my-4 También ayuda a sensibilizar y motivar la participación de la población ante la posible intervención, fomenta la creatividad en las propuestas de solución y puede conllevar un alto impacto de las propuestas respetando la cultura y la forma de ser de la población, así como complementariedad con la información obtenida de fuentes secundarias. Algunos aspectos a tener en cuenta son, por un lado, la necesidad de <strong>un equipo multidisciplinario que planifique el diagnóstico</strong> y por otro de <strong>recursos y tiempo para el trabajo de campo.</strong> Según Expósito (2003), el DRP consta de siete pasos para su realización: 
+    //- p.my-4 También ayuda a sensibilizar y motivar la participación de la población ante la posible intervención, fomenta la creatividad en las propuestas de solución y puede conllevar un alto impacto de las propuestas respetando la cultura y la forma de ser de la población, así como complementariedad con la información obtenida de fuentes secundarias. Algunos aspectos a tener en cuenta son, por un lado, la necesidad de <strong>un equipo multidisciplinario que planifique el diagnóstico</strong> y por otro de <strong>recursos y tiempo para el trabajo de campo.</strong> Según Expósito (2003), el DRP consta de siete pasos para su realización: 
 
-    AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
-      .row.align-items-center(titulo="1. Delimitar la población objetivo")
-        .col-lg-8.mb-4
-          p Definir el alcance y el objetivo del diagnóstico que puede ser a tres niveles, población más o menos dispersa, organizaciones rurales o empresas agropecuarias y agroindustriales propiamente dichas.
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/temas/tema2/img47.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-      .row.align-items-center(titulo="2. Seleccionar y preparar el equipo facilitador")
-        .col-lg-8.mb-4
-          p El equipo de trabajo debe ser multidisciplinario, pues las poblaciones y sus problemas son de naturaleza multidimensional, y por ende, el enfoque de las actividades de extensión agropecuaria se considera integral, correspondiente con el marco normativo y las necesidades de fortalecimiento de la ruralidad colombiana; además, el trabajo con poblaciones requiere de competencias en el manejo de este tipo de población, así como de una clara vocación de servicio.
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/temas/tema2/img48.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-      .row.align-items-center(titulo="3. Análisis de participantes")
-        .col-lg-8.mb-4
-          p Identificar y caracterizar a todos los participantes para establecer las mejores prácticas y herramientas posibles, adaptando la estrategia de comunicación a las condiciones reales de los sujetos de la intervención e identificando los liderazgos que pueden ayudan a la eficacia del proceso.
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/temas/tema2/img49.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-      .row.align-items-center(titulo="4. Análisis de expectativas")
-        .col-lg-8.mb-4
-          p Comunicar las expectativas de todos los actores ayudará a establecer metas comunes que motivan la participación y la intención para generar cambios en especial si tienen que ver con la calidad de vida de la población. Aquí hay que prestar una especial atención a cuestiones de género.
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/temas/tema2/img50.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-      .row.align-items-center(titulo="5. Identificación de las necesidades de información")
-        .col-lg-8.mb-4
-          p La información, su calidad, precisión, especificidad, etc. debe ser suficiente para que no queden vacíos en el momento de procesarla durante la formulación del proyecto y el planteamiento de las alternativas de intervención. Esta información debe corresponder a la realidad rural, las estructuras sociales, las relaciones de género, familiares y demás condiciones culturales y particulares de la población objetivo.
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/temas/tema2/img51.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-      .row.align-items-center(titulo="6. Selección de las herramientas de investigación")
-        .col-lg-8.mb-4
-          p La selección de herramientas debe obedecer no solo a las necesidades de información orientada a la formulación del proyecto, sino también a las preferencias de la misma población. También es importante considerar la información desagregada por género de la población en situación de vulnerabilidad y discapacidad, de minorías, etc.; es decir con un enfoque diferencial. También se recomienda revisar información ya obtenida en otros procesos. Existe un conjunto muy amplio de herramientas participativas que se han diseñado precisamente debido a las condiciones de la población rural, uno de los campos de acción de la andragogía.
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/temas/tema2/img52.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-      .row.align-items-center(titulo="7. Diseñar y planificar el proceso de diagnóstico")
-        .col-lg-8.mb-4
-          p El éxito del proceso de diagnóstico, al igual que el éxito del proyecto de intervención, depende en gran medida de una buena planificación. Se requiere establecer el tamaño, las características del equipo de trabajo, el cronograma de actividades, la localización, medios de transporte, los materiales y otros recursos requeridos, etc.
-        .col-lg-4
-          figure
-            img(src='@/assets/curso/temas/tema2/img53.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
+    //- AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+    //-   .row.align-items-center(titulo="1. Delimitar la población objetivo")
+    //-     .col-lg-8.mb-4
+    //-       p Definir el alcance y el objetivo del diagnóstico que puede ser a tres niveles, población más o menos dispersa, organizaciones rurales o empresas agropecuarias y agroindustriales propiamente dichas.
+    //-     .col-lg-4
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema2/img47.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
+    //-   .row.align-items-center(titulo="2. Seleccionar y preparar el equipo facilitador")
+    //-     .col-lg-8.mb-4
+    //-       p El equipo de trabajo debe ser multidisciplinario, pues las poblaciones y sus problemas son de naturaleza multidimensional, y por ende, el enfoque de las actividades de extensión agropecuaria se considera integral, correspondiente con el marco normativo y las necesidades de fortalecimiento de la ruralidad colombiana; además, el trabajo con poblaciones requiere de competencias en el manejo de este tipo de población, así como de una clara vocación de servicio.
+    //-     .col-lg-4
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema2/img48.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
+    //-   .row.align-items-center(titulo="3. Análisis de participantes")
+    //-     .col-lg-8.mb-4
+    //-       p Identificar y caracterizar a todos los participantes para establecer las mejores prácticas y herramientas posibles, adaptando la estrategia de comunicación a las condiciones reales de los sujetos de la intervención e identificando los liderazgos que pueden ayudan a la eficacia del proceso.
+    //-     .col-lg-4
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema2/img49.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
+    //-   .row.align-items-center(titulo="4. Análisis de expectativas")
+    //-     .col-lg-8.mb-4
+    //-       p Comunicar las expectativas de todos los actores ayudará a establecer metas comunes que motivan la participación y la intención para generar cambios en especial si tienen que ver con la calidad de vida de la población. Aquí hay que prestar una especial atención a cuestiones de género.
+    //-     .col-lg-4
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema2/img50.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
+    //-   .row.align-items-center(titulo="5. Identificación de las necesidades de información")
+    //-     .col-lg-8.mb-4
+    //-       p La información, su calidad, precisión, especificidad, etc. debe ser suficiente para que no queden vacíos en el momento de procesarla durante la formulación del proyecto y el planteamiento de las alternativas de intervención. Esta información debe corresponder a la realidad rural, las estructuras sociales, las relaciones de género, familiares y demás condiciones culturales y particulares de la población objetivo.
+    //-     .col-lg-4
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema2/img51.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
+    //-   .row.align-items-center(titulo="6. Selección de las herramientas de investigación")
+    //-     .col-lg-8.mb-4
+    //-       p La selección de herramientas debe obedecer no solo a las necesidades de información orientada a la formulación del proyecto, sino también a las preferencias de la misma población. También es importante considerar la información desagregada por género de la población en situación de vulnerabilidad y discapacidad, de minorías, etc.; es decir con un enfoque diferencial. También se recomienda revisar información ya obtenida en otros procesos. Existe un conjunto muy amplio de herramientas participativas que se han diseñado precisamente debido a las condiciones de la población rural, uno de los campos de acción de la andragogía.
+    //-     .col-lg-4
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema2/img52.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
+    //-   .row.align-items-center(titulo="7. Diseñar y planificar el proceso de diagnóstico")
+    //-     .col-lg-8.mb-4
+    //-       p El éxito del proceso de diagnóstico, al igual que el éxito del proyecto de intervención, depende en gran medida de una buena planificación. Se requiere establecer el tamaño, las características del equipo de trabajo, el cronograma de actividades, la localización, medios de transporte, los materiales y otros recursos requeridos, etc.
+    //-     .col-lg-4
+    //-       figure
+    //-         img(src='@/assets/curso/temas/tema2/img53.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
 
     
 
@@ -457,11 +461,11 @@
     .row.align-items-center.grad1.p-3
       .col-lg-2
         figure
-          img(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
+          img.my-4(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
         h2.text-light Anexo. Tabla 3
         .text-light.mb-0 Herramientas para el diagnóstico participativo de organizaciones, empresas o unidades productivas agropecuarias. Geilfus, F. (2002).
-      .col-lg-3.text-center
+      .col-lg-3.text-center.my-3
         a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla3.pdf')" target="_blank" type="application/pdf")
           span Descargar
           i.fas.fa-file-download
@@ -489,7 +493,7 @@
           .col(style="z-index:1")
             p.m-0 Así, a la relación entre los problemas, que son cualitativos, se le atribuye <strong>una magnitud y del ordenamiento matricial</strong> de estos valores se puede identificar la variable (problema) con mayor influencia en relación a las demás. En resumen, la matriz de Vester, también llamada matriz de <strong>influencia-dependencia (ID)</strong> nos permite <strong>identificar el problema central y tres grupos más o menos diferenciados</strong> (causas, consecuencias y supuestos). Una consideración importante es que la herramienta es eficaz cuando se consideran al menos 13 problemas (mínimo grado en el que adquiere significancia el tratamiento de los datos).
     
-    p.text-center Antes de proseguir con la descripción del método paso por paso vale la pena enfatizar en las siguientes aclaraciones a la hora de redactar los problemas:
+    p.text-center.my-5 Antes de proseguir con la descripción del método paso por paso vale la pena enfatizar en las siguientes aclaraciones a la hora de redactar los problemas:
 
     hr.m-auto(style="background: #FFA686")(width="83%")
     .row.align-items-center
@@ -728,6 +732,45 @@
 
         p.text-center Figura 8. Ejemplo de árbol de objetivos. Tomado de la guía de proyectos del DNP (2016).
     
+    ul.lista-ul.m-0
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Disminuir los impactos ambientales (contaminación fuentes y GEl).
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Reducir el valor de la tarifa de aseo para los usuarios.
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Reducir el uso de recursos para obtención de materias primas.
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Disminuir el volumen de toneladas dispuestas en relleno.
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Generar ingresos por la venta de materiales.
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Aumentar el aprovechamiento de los residuos sólidos domiciliarios de la zona urbana del municipio XXX, del departamento de XXX.
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Mejorar las prácticas de separación de materiales.
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Implementar espacios eficientes para la valorización de residuos sólidos.
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Adoptar hábitos de clasificación de residuos en la fuente.
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Ajustar el sistema de recolección para el transporte selectivo.
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Apropiar nuevas tecnologías en el proceso del reciclaje.
+          li 
+            i.lista-ul__vineta(style="color: black")
+            | Fortalecer la organización de los recuperadores.
+  
+
     .row.mt-5.mb-4.align-items-center
       p Para finalizar este ejercicio correctamente se hace necesaria una <strong>validación</strong>, lo que comprende una revisión de las relaciones entre las hipótesis planteadas, detectar y corregir posibles inconsistencias y de ser necesario, eliminar o adicionar nuevos elementos si se considera relevante, siempre y cuando se justifique debidamente. En toda situación, en la medida en que el ejercicio de análisis de problemas haya sido acertado, las acciones también lo serán, así como las alternativas correspondientes. Aquí se evidencia la importancia de una buena planeación y la justificación de la proporción de esta tarea dentro del proyecto general.
 
