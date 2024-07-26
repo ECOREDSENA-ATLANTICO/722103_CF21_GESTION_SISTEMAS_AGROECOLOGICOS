@@ -253,12 +253,20 @@
             figure.my-5
               img(data-aos="zoom-in",src='@/assets/curso/temas/tema2/img36.svg', alt='Imagen decorativa',width="150px",height="150px")
     
+    .row.justify-content-center 
+      .col-lg-9
+          .container.tarjeta.tarjeta--blanca.p-4.p-md-5  
+          
+            p.my-3.text-center <strong>Figura 2.</strong> Análisis de actores involucrados. Tomado de Ecosistema de Recursos Educativos Digitales SENA (2021) 
+            figure
+              img(data-aos="fade-up",src='@/assets/curso/temas/tema2/img76.png', alt='')
+
     .row.align-items-center.grad1.p-3.my-4
       .col-lg-2
         figure
           img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
-        h2.text-light Tabla 2. Ejemplo de herramienta de análisis de involucrados. Bernal (2021).
+        h2.text-light <strong>Tabla 2.</strong> Ejemplo de herramienta de análisis de involucrados. Bernal (2021).
         .text-light.mb-0 Un ejemplo de una herramienta de análisis sencillo, que podemos llamar “resumen de participación” es el siguiente:
       .col-lg-3.text-center.my-3
         a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla2.pdf')" target="_blank" type="application/pdf")
@@ -505,7 +513,7 @@
             h3.bloque-texto-f__texto  (DNP, 2016, p.15)
             i.fas.fa-quote-right
 
-    p.text-center.my-3 <strong>Figura 2.</strong> Recomendaciones para la correcta definición de un problema.
+    p.text-center.my-3 <strong>Figura 3.</strong> Recomendaciones para la correcta definición de un problema.
     .row.justify-content-center.my-5
       .col-lg-5.mb-3
         p.text-center <strong>Forma incorrecta</strong> de definir un problema
@@ -573,25 +581,25 @@
           figure
             img(src="@/assets/curso/temas/tema2/img59.svg", alt="Muestra las Recomendaciones para la correcta definición de un problema, teniendo en cuenta los cinco pasos para la priorización de un problema.")
 
-          p.text-center Tabla 4. Ejemplo de estructura de la matriz de influencia-dependencia (Véster). <br>Tomado de Silva y Sandoval (2012). 
+          p.text-center <strong>Tabla 4.</strong> Ejemplo de estructura de la matriz de influencia-dependencia (Véster). <br>Tomado de Silva y Sandoval (2012). 
       .row(numero="3" titulo="Paso 3")
         .col-lg-12.mb-4.mb-md-0
           p Se asigna la puntuación empezando por <strong>la fila superior de izquierda a derecha</strong>, teniendo en cuenta que esta ponderación corresponde al grado de influencia del problema de la fila con respecto a cada problema de las columnas. Al establecer las relaciones de causalidad es importante considerar una relación directa entre los problemas. Una forma de verificar que el ejercicio se está haciendo bien es que al terminar de asignar valores, no más del 30% de ellos corresponde a un valor de tres (3); caso contrario, existe un sesgo atribuible a la falta de definición de los problemas o a la consideración de causas indirectas entre ellos. Se puede hacer esta pregunta cada vez que se confronten los problemas: <strong>¿Cómo influye el problema 1 sobre el problema 2?; ¿Cómo influye el problema 1 sobre el problema 3?</strong>, y así sucesivamente… el orden se establece en las filas, de superior a inferior. Para el valor a asignarse puede usar la siguiente escala:
           figure
             img(src="@/assets/curso/temas/tema2/img5.svg", alt="")
-          p.text-center Tabla 5. Escala de valores. Tomado de Silva y Sandoval (2012). 
+          p.text-center <strong>Tabla 5.</strong> Escala de valores. Tomado de Silva y Sandoval (2012). 
       .row(numero="4" titulo="Paso 4")
         .col-lg-12.mb-4.mb-md-0
           p Una vez llena la matriz se agrega <strong>una columna y una fila</strong> para registrar las sumatorias de valores de las filas y las columnas, los valores de la columna representan las magnitudes de las influencias y los de la fila representan los de las dependencias. A continuación un ejemplo: 
           figure
             img(src="@/assets/curso/temas/tema2/img8.svg", alt="")
-            p.text-center Tabla 6. Llenado de la matriz de influencia- dependencia (Véster).  Tomado de Silva y Sandoval (2012). 
+            p.text-center <strong>Tabla 6.</strong> Llenado de la matriz de influencia- dependencia (Véster).  Tomado de Silva y Sandoval (2012). 
       .row(numero="5" titulo="Paso 5")
         .col-lg-12.mb-4.mb-md-0
           p Al tener ya las sumatorias se procede a <strong>graficar</strong> estos valores. Se usa un <strong>plano cartesiano</strong> donde la intersección de los ejes corresponde al valor promedio de las dependencias e influencias. Cada cuadrante representa un tipo de problema; el primer cuadrante de la figura corresponde a los problemas pasivos, el segundo a los críticos, el tercero a los exógenos o estructurales (posteriormente se pueden usar como supuestos en la <strong>MML</strong>) y el cuarto representa las causas. 
           figure
             img(src="@/assets/curso/temas/tema2/img60.svg", alt="")
-          p.text-center Tabla 7. Esquema de definición de cuadrantes en relación a la influencia y la dependencia. <br> Tomado de Silva y Sandoval (2012). 
+          p.text-center <strong>Tabla 7.</strong> Esquema de definición de cuadrantes en relación a la influencia y la dependencia. <br> Tomado de Silva y Sandoval (2012). 
 
     .row.my-5.align-items-center.p-3(style="background: #FFFAEB")
       .col-lg-8
@@ -600,7 +608,7 @@
       .col-lg-4
         p En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
 
-        p Figura 3. Ejemplo de la forma gráfica de la matriz ID.Tomado de Silva y Sandoval (2012). 
+        p <strong>Figura 4.</strong> Ejemplo de la forma gráfica de la matriz ID.Tomado de Silva y Sandoval (2012). 
     
     Separador
     #t_2_7.titulo-segundo.color-acento-contenido
@@ -620,6 +628,20 @@
       .col-lg-6
         p También podemos resumir este aporte del método a <strong>una mejor manera de organizar la información</strong> obtenida en un momento dado para lograr orientar de manera efectiva los recursos y esfuerzos hacia un objetivo claro que nos permita obtener el mayor beneficio e impacto posibles. El árbol de problemas es, bajo el <strong>EML</strong>, la herramienta que ayuda a identificar el problema central, pero debido a que el uso de la herramienta no es fácil de abordar desde el contexto de la ruralidad, los anteriores pasos son la forma de <strong>producir insumos de calidad</strong> (análisis de participación de actores, identificación y definición previa de problemas, etc.) para el uso adecuado de esta herramienta clave.
 
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+      .tarjeta.tarjeta--gris.p-4
+        PasosB.color-acento-contenido
+          .row.justify-content-center(titulo="")
+            .col-md-10
+              figure
+                img(src='@/assets/curso/temas/tema2/img77.png', alt='Texto que describa la imagen')
+                figcaption <strong>Figura 5.</strong> Análisis causa-efecto a través de la “metodología de árboles”. Tomado de Ecosistema de Recursos Educativos Digitales SENA (2021) 
+          .row.justify-content-center(titulo="")
+            .col-md-10
+              figure
+                img(src='@/assets/curso/temas/tema2/img78.png', alt='Texto que describa la imagen')
+                figcaption <strong>Figura 5.</strong> Análisis causa-efecto a través de la “metodología de árboles”. Tomado de Ecosistema de Recursos Educativos Digitales SENA (2021) 
     .row.align-items-center.my-3
       .col-auto
         img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imagen decorativa')
@@ -641,7 +663,7 @@
             | Las acciones o hechos tienen una relación de precedencia (en el tiempo): si A precede a B, entonces A puede ser causa de B o B es efecto de A, teniendo como condición una proximidad en el espacio y tiempo.
         figure
           img(src="@/assets/curso/temas/tema2/img6.svg", alt="Muestra el componente formativo un ejemplo de causa y efecto, de acuerdo: Desconocimiento de las fuentes de información de precios de mercado. Capacidad limitada de negociación de bienes y*o servicios. Capacidad limitada de negociación de bienes y*o servicios.")
-          p.my-3.text-center Figura 4. Ejemplo de causa y efecto. Ejemplo de causa y efecto. Bernal (2021).
+          p.my-3.text-center <strong>Figura 6.</strong> Ejemplo de causa y efecto. Ejemplo de causa y efecto. Bernal (2021).
       .col-lg-4
         figure
           img(src="@/assets/curso/temas/tema2/img7.png", alt="")
@@ -656,7 +678,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/img11.svg", alt="Muestra el componente formativo un ejemplo de efectos directos e indirectos, teniendo en cuenta: Efectos directos Aumento de impactos ambientales (contaminación fuentes y GEI). Mayor valor de la tarifa de aseo para los usuarios. Efectos Indirectos Alto uso de recursos para obtención de materias primas. Aumento del volumen de toneladas dispuestas en relleno. Pérdida de ingresos por ventas potenciales.")
 
-        p.my-3.text-center Figura 5. Ejemplo de efectos directos e indirectos. Tomado de la guía de proyectos del DNP (2016).
+        p.my-3.text-center <strong>Figura 7.</strong> Ejemplo de efectos directos e indirectos. Tomado de la guía de proyectos del DNP (2016).
 
     .row.align-items-center.my-4
       p En la segunda etapa se observan <strong>las causas y de la misma manera en que se procedió en la primera etapaa</strong>, pero hacia abajo en la gráfica, establecemos causas directas en un primer nivel y causas indirectas en un segundo e incluso un tercer nivel, estableciendo la relación causal entre todas ellas. <strong>Es posible que una causa tenga más de una consecuencia y viceversa.</strong> Las causas indirectas dan origen a las directas. Esta etapa es clave debido a que al hallar las causas originarias del problema de manera diferenciada, estableceremos los componentes del proyecto más adelante. En la medida en que se contrarresten las causas (raíces) del problema se estará contribuyendo a la <strong>superación del problema central.</strong>
@@ -666,7 +688,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/img12.svg", alt="Muestra el componente formativo un ejemplo de causas directas e indirectas, de acuerdo a : Causas directas Deficientes prácticas de separación de materiales. Ineficientes espacios para la valorización de residuos sólidos. Causas Indirectas Inadecuada tradición del manejo de residuos en la fuente. Inapropiado sistema de recolección para el transporte selectivo. Reducida aplicación de tecnología en el proceso de reciclaje. Informalidad y dispersión de los recuperadores.")
 
-        p.my-3.text-center Figura 6. Ejemplo de causas directas e indirectas. Tomado de la guía de proyectos del DNP (2016).
+        p.my-3.text-center <strong>Figura 8.</strong> Ejemplo de causas directas e indirectas. Tomado de la guía de proyectos del DNP (2016).
 
     .row.align-items-center.my-4
       p Una vez identificados todos los efectos y causas del problema central <strong>se integra toda la información en un solo cuadro</strong> que representa el resumen de la situación problémica. Aunque este análisis define el camino a seguir en adelante, los hechos descritos aún mantienen el carácter de <strong>hipótesis</strong> hasta tanto no se corroboran en los estudios del proyecto y se someten a evaluación del equipo de trabajo y la población objetivo de manera participativa <strong>(Ortegón et.al, 2005).</strong>
@@ -676,7 +698,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/img13.png", alt="Muestra el componente formativo un ejemplo de árbol de problemas, según sus efectos, problemas y causas.")
     
-        p.my-3.text-center Figura 7. Ejemplo de árbol de problemas. Tomado de la guía de proyectos del DNP (2016).
+        p.my-3.text-center <strong>Figura 9.</strong> Ejemplo de árbol de problemas. Tomado de la guía de proyectos del DNP (2016).
 
     .row.my-3.align-items-center 
       .col-lg-12.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3
@@ -730,7 +752,7 @@
         figure.my-3
           img(src="@/assets/curso/temas/tema2/img14.svg", alt="Muestra el componente formatico un ejemplo de árbol de objetivos. ")
 
-        p.text-center Figura 8. Ejemplo de árbol de objetivos. Tomado de la guía de proyectos del DNP (2016).
+        p.text-center <strong>Figura 10.</strong> Ejemplo de árbol de objetivos. Tomado de la guía de proyectos del DNP (2016).
     
     ul.lista-ul.m-0
           li 

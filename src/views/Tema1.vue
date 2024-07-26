@@ -28,8 +28,8 @@
             figure(data-aos="flip-left")
               img.my-3(src="@/assets/curso/temas/tema1/img3.svg", alt="Muestra el Marco lógico y ciclo de vida del proyecto. Diseño, Ejecución, Evaluación")
             
-            span Figura 1. 
-            strong Marco lógico y ciclo de vida del proyecto. 
+            span <strong> Figura 1.</strong> 
+            span Marco lógico y ciclo de vida del proyecto. 
             span lógico y ciclo de vida del proyecto. Bernal (2021).
     
     .row.my-4.align-items-center.p-4(style="background:#FFFAEB")

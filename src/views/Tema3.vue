@@ -98,7 +98,7 @@
       .col-lg-10.m-auto.my-5
         figure
           img(src="@/assets/curso/temas/tema2/img66.svg", alt="Muestra el componente formativo un ejemplo de propuesta de acción, de acuerdo a: Mejorar las  practicas de separacion de materiales. Implemetar espacios eficientes para la valoracion de residuos solidos.")
-        p.my-5.text-center Figura 9. Ejemplo de propuesta de acción. <br> Tomado de la guía de proyectos del DNP (2016).
+        p.my-5.text-center <strong>Figura 11.</strong> Ejemplo de propuesta de acción. <br> Tomado de la guía de proyectos del DNP (2016).
     
     p Como tercer paso los autores de la guía del ejemplo del DNP recomiendan realizar un filtro de las actividades, determinando su <strong>viabilidad técnica, financiera o legal</strong> Luego de seleccionadas las actividades y teniendo en cuenta su compatibilidad se llega a las siguientes conclusiones:
 
@@ -264,7 +264,7 @@
             td(colspan='2') 85
             td(colspan='2') 92
             td(colspan='2') 71
-    p.my-3.text-center Tabla 8. Matriz de selección de alternativa óptima. Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
+    p.my-3.text-center <strong>Tabla 8.</strong> Matriz de selección de alternativa óptima. Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
 
     Separador
     #t_3_2.titulo-segundo.color-acento-contenido
@@ -305,7 +305,7 @@
                 td Actividades
                 td Actividades
 
-        p.text-center Tabla 9. Relación entre el árbol de problemas, árbol de objetivos y la MML. <br> Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
+        p.text-center <strong>Tabla 9.</strong> Relación entre el árbol de problemas, árbol de objetivos y la MML. <br> Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
     .row.p-3.my-5
       .col-lg-10.m-auto
         .p-3(style="background: #EFF5D6; border-radius: 20px")
@@ -357,7 +357,7 @@
             td
             td
             td
-    p.text-center Tabla 10. Esquema de la matriz de marco lógico . Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
+    p.text-center <strong>Tabla 10.</strong> Esquema de la matriz de marco lógico . Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
     
     .row.mt-5.mb-4.align-items-center
       .col-auto
@@ -383,7 +383,7 @@
           p.text-bold.m-0 Actividades
           | Grupo de tareas principales requeridas para la producción de cada resultado o componente.
     
-    p.text-center Figura 10. Resumen narrativo del proyecto . Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
+    p.text-center <strong>Figura 12</strong> Resumen narrativo del proyecto . Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
 
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido
@@ -526,7 +526,7 @@
             td
             td
             td
-    p.text-center Tabla 11. Herramienta de selección de indicadores Tomado de la guía de proyectos del DNP (2017).
+    p.text-center <strong>Tabla 11.</strong> Herramienta de selección de indicadores Tomado de la guía de proyectos del DNP (2017).
 
     p.pt-4  Para la determinación de los medios de verificación la misma guía nos indica que es necesario <strong>identificar y definir las fuentes de información, las herramientas y los métodos usados</strong> para comprobar el estado de progreso del proyecto, siendo esta columna el fundamento del sistema de monitoreo y evaluación del proyecto.
     p Al igual que para los indicadores en la <strong>MML</strong> no se ubican los medios de verificación para las actividades, solo para los <strong>objetivos y resultados</strong> aquí se deben especificar la ubicación de las fuentes de información de ejecución del presupuesto asignado, para efectuar el respectivo monitoreo.
@@ -561,14 +561,14 @@
             td 4
             td 20
             td Crítico
-    p.text-center Tabla 12. Ejemplos de análisis de riesgos
+    p.text-center <strong>Tabla 12.</strong> Ejemplos de análisis de riesgos
 
     .row.mt-5.mb-4.align-items-center
       .col-lg-10.m-auto
         figure 
           img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imagen decorativa')
 
-    p.text-center Figura 11. Modelo de matriz de evaluación de riesgos. Adaptación de Bernal (2021)
+    p.text-center <strong>Figura 13</strong> Modelo de matriz de evaluación de riesgos. Adaptación de Bernal (2021)
 
     .row.mt-5.mb-4.align-items-center
       .col-lg-4
@@ -639,7 +639,7 @@
         figure
           img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
       .col-lg-7
-        h2.text-light Tabla 13. Matriz de marco lógico completa con la explicación de cada apartado.
+        h2.text-light <strong>Tabla 13.</strong> Matriz de marco lógico completa con la explicación de cada apartado.
         .text-light.mb-0 Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
       .col-lg-3.text-center.my-3
         a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla13.pdf')" target="_blank" type="application/pdf")
