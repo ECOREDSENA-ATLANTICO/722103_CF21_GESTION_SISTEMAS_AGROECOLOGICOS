@@ -12,7 +12,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img1.png')})`}"
         )
 
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-4(data-aos="fade-right")
         p.mb-0 La metodología de elaboración de proyectos bajo el<strong> Enfoque de Marco Lógico (EML)</strong> es en sí, una <strong>herramienta para la ordenación de información relacionada a un proyecto, basada en el razonamiento lógico</strong>; es decir, donde a partir de unas observaciones asumidas como verdaderas, se puede inferir, en ambos sentidos (causas o efectos), otras que en consecuencia, también serán verdaderas y que se denominan hipótesis. El EML se usa principalmente para la indagación de problemas, diseño, ejecución y evaluación de proyectos (CEPAL, 2005). Se enfoca principalmente hacia la consecución de objetivos pero facilitando la participación de los interesados, llamados stakeholders.
 
     .row.my-4.align-items-center
@@ -20,53 +20,53 @@
         figure(data-aos="slide-down")
           img(src="@/assets/curso/temas/tema1/img2.png", alt="Imagen decorativa")
       .col-lg-8
-        p.text-bold.my-3 <strong>El EML se puede usar en todas las etapas del proyecto, sea para el análisis de macropolíticas de desarrollo, del contexto de una actividad productiva en un momento y lugar dados, en la formulación de los proyectos, la valoración o evaluación, ejecución y/o desempeño de estos (PCI, 1979).</strong> 
-        p Este documento se enfocará en la primera parte del ciclo del proyecto, correspondiente al diseño, que abarca dos etapas, el análisis y la planificación.
+        p.text-bold.my-3(data-aos="fade-left") <strong>El EML se puede usar en todas las etapas del proyecto, sea para el análisis de macropolíticas de desarrollo, del contexto de una actividad productiva en un momento y lugar dados, en la formulación de los proyectos, la valoración o evaluación, ejecución y/o desempeño de estos (PCI, 1979).</strong> 
+        p(data-aos="fade-left") Este documento se enfocará en la primera parte del ciclo del proyecto, correspondiente al diseño, que abarca dos etapas, el análisis y la planificación.
 
         .row.my-2
           .col-lg-10.m-auto
             figure(data-aos="flip-left")
-              img.my-3(src="@/assets/curso/temas/tema1/img3.svg", alt="Muestra el Marco lógico y ciclo de vida del proyecto. Diseño, Ejecución, Evaluación")
             
             span <strong> Figura 1.</strong> 
             span Marco lógico y ciclo de vida del proyecto. 
-            span lógico y ciclo de vida del proyecto. Bernal (2021).
+              img.my-3(src="@/assets/curso/temas/tema1/img3.svg", alt="Muestra el Marco lógico y ciclo de vida del proyecto. Diseño, Ejecución, Evaluación")
+            figcaption Bernal (2021).
     
     .row.my-4.align-items-center.p-4(style="background:#FFFAEB")
       .col-lg-8.my-2
-        p Además de dar respuesta a otras metodologías que presentan problemas comunes mencionados ya en la introducción, <strong>el método posee otras ventajas:</strong>
+        p(data-aos="fade-right") Además de dar respuesta a otras metodologías que presentan problemas comunes mencionados ya en la introducción, <strong>el método posee otras ventajas:</strong>
         ol.px-4.lista-ol
-          li 
+          li(data-aos="fade-right") 
             span.text-bold 1. 
             | Proporcionar una terminología uniforme que facilite la comunicación.
-          li 
+          li(data-aos="fade-right")
             span.text-bold 2. 
             | Estandarizar la forma de presentar metas, objetivos y supuestos lo que implica un acuerdo preciso.
-          li 
+          li(data-aos="fade-right") 
             span.text-bold 3. 
             | Suministrar referentes comunes de análisis para el uso de todos los involucrados.
-          li 
+          li(data-aos="fade-right") 
             span.text-bold 4. 
             | Aportar a la eficiencia para el uso de recursos por focalizarse en puntos técnicos críticos (cuellos de botella).
-          li 
+          li(data-aos="fade-right") 
             span.text-bold 5. 
             | Facilitar la organización lógica de los planes de acción.
-          li 
+          li(data-aos="fade-right") 
             span.text-bold 6. 
             | Permitir el seguimiento y la evaluación a lo largo del proyecto.
-          li 
+          li(data-aos="fade-right") 
             span.text-bold 7. 
             | Permitir la visualización global del proyecto desde una sola herramienta.
       .col-lg-4.my-2
         figure(data-aos="slide-down")
           img(src="@/assets/curso/temas/tema1/img4.png", alt="Imagen decorativa")
     
-    .row.my-4.align-items-center
+    .row.my-4.align-items-center(data-aos="fade-up")
       .col-lg-10.my-2.m-auto
         .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFE9E1")
           p.mt-0 Una aclaración importante de Ortegón et al. (2005) es que el EML es un excelente apoyo para el análisis y formulación de un proyecto, pero no sustituye la creatividad a la hora de resolver problemas. Los resultados de su aplicación si bien son sucintos, no implican su solución, aunque dejan ver claramente su origen y sus posibles soluciones.
     
-    .row.my-4.align-items-center
+    .row.my-4.align-items-center(data-aos="fade-left")
       .col-lg-12.my-2
         strong El EML cuenta con una herramienta principal que es la Matriz de Marco Lógico (MML).  
         span Si bien la matriz es destacable, el enfoque es más completo, pues recoge instrumentos desde el análisis original hasta el análisis prospectivo del proyecto.  La MML es el producto de la aplicación del método, que puede visualizarse en dos etapas o fases claramente diferenciadas:

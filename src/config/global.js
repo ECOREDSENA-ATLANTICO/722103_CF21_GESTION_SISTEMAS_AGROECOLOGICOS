@@ -396,12 +396,6 @@ export default {
     },
     {
       referencia:
-        'Ortegón, E., Pacheco, J.F. y Prieto, A. (2005). Metodología del marco lógico para la planificación, el  seguimiento y la evaluación de proyectos y programas.',
-      link:
-        'https://repositorio.cepal.org/bitstream/handle/11362/5607/S057518_es.pdf',
-    },
-    {
-      referencia:
         'Practical Concepts Incorporated (PCI) (1979). The logical framework, a manager’s guide to a scientific approach to design & evaluation. PCI',
       link:
         'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://pdf.usaid.gov/pdf_docs/pnaec576.pdf&ved=2ahUKEwiWlcnZtsCHAxWDSjABHWzuDgwQFnoECAgQAQ&usg=AOvVaw0KghoD0bL1kiYU-eB8Hv7T',
@@ -503,7 +497,7 @@ export default {
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Eulices Orduz Amézquita',
+          nombre: 'Jesús Antonio Vecino',
           cargo: 'Diseño de contenidos digitales',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
