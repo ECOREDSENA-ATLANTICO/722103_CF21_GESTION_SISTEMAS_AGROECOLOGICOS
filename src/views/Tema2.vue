@@ -13,7 +13,7 @@
         )
 
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
-        p.mb-0 La primera etapa de <strong> la fase de diseño comprende al menos cuatro partes</strong>, a saber: el análisis de actores involucrados, la identificación de problemas, el análisis de problemas (causa-efecto) y el análisis de objetivos; sin embargo, desde la experiencia, es altamente recomendable efectuar un análisis consultivo a partir de información secundaria y un ejercicio previo al análisis de problemas que de manera práctica es un valioso apoyo para la identificación del problema central y de paso al análisis de causas de este, la matriz de Vester. Adicionalmente, atendiendo las necesidades de la ruralidad y el sector productivo agropecuario, una recomendación importante es robustecer el diagnóstico de la situación problemática a través de la realización de un diagnóstico rural participativo <strong>(DRP)</strong> 
+        p.mb-0 La primera etapa de <strong> la fase de diseño comprende al menos cuatro partes</strong>, a saber: el análisis de actores involucrados, la identificación de problemas, el análisis de problemas (causa-efecto) y el análisis de objetivos; sin embargo, desde la experiencia, es altamente recomendable efectuar un análisis consultivo a partir de información secundaria y un ejercicio previo al análisis de problemas que de manera práctica es un valioso apoyo para la identificación del problema central y de paso al análisis de causas de este, la matriz de Vester. Adicionalmente, atendiendo las necesidades de la ruralidad y el sector productivo agropecuario, una recomendación importante es robustecer el diagnóstico de la situación problemática a través de la realización de un diagnóstico rural participativo <strong>(DRP)</strong>. 
 
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido
@@ -261,17 +261,33 @@
             figure
               img(data-aos="fade-up",src='@/assets/curso/temas/tema2/img76.svg', alt='')
             figcaption Tomado de Ecosistema de Recursos Educativos Digitales SENA (2021) 
-    .row.align-items-center.grad1.p-3.my-4
-      .col-lg-2
-        figure
-          img.my-3(data-aos="fade-right",src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
-      .col-lg-7
-        h2.text-light <strong>Tabla 2.</strong> Ejemplo de herramienta de análisis de involucrados. Bernal (2021).
-        .text-light.mb-0 Un ejemplo de una herramienta de análisis sencillo, que podemos llamar “resumen de participación” es el siguiente:
-      .col-lg-3.text-center.my-3
-        a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla2.pdf')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
+
+    p.text-center <strong>Tabla 2.</strong> Ejemplo de herramienta de análisis de involucrados.
+    .tabla-b.color-acento-contenido.text-center(style="background: white")
+      table
+        thead 
+          tr(style="background: #FFA686")
+            th Actor
+            th Grado de influencia<br> (Bajo, medio, alto)
+            th Tipo de actitud <br>(Positiva, negativa o indiferente)
+            th Contribución posible
+            th Intereses manifiestos
+            th Problemas percibidos
+            th Acciones
+        tbody
+          tr
+            td <strong>Junta de acción comunal</strong>
+            td Alto
+            td Positiva
+            td Préstamos de espacios para reuniones, equipamiento, apoyo en especie, comunicación con la comunidad, escuela de liderazgo, identificación de problemas y soluciones, suministro de información.
+            td Beneficios para la comunidad, participación directa en el proyecto, sinergia con otros proyectos, encadenamientos productivos.
+            td Ausencia de instancias de información clara acerca de los mecanismos de participación ciudadana, con politización de los programas de apoyo a la ruralidad.
+            td Propuesta de comité de trabajo, documento acta de compromiso con los distintos aportes y acuerdos.
+    p.text-center Bernal (2021).
+
+
+
+      
 
     .row.align-items-center.my-5
       .col-lg-8.mb-2
@@ -302,7 +318,7 @@
           img(src='@/assets/curso/temas/tema2/img38.png', alt='Imagen decorativa')
       .col-lg-8.mb-2
         .cajon.color-acento-botones.p-4(data-aos="slide-down",style="background: #FFD94715")
-          p.mt-0 Muchas fuentes de información acerca del método EML usan un ejemplo recurrente de aplicación de la herramienta de <strong>“lluvia de ideas”</strong> (brainstorming) con el protagonismo de la misma población que es perfectamente válido pero que se puede fortalecer por medio de la indagación del contexto de la problemática identificada, previamente al ejercicio de definición del problema central.
+          p.mt-0 Muchas fuentes de información acerca del método EML usan un ejemplo recurrente de aplicación de la herramienta de <strong>“lluvia de ideas”</strong> (<em>brainstorming</em>) con el protagonismo de la misma población que es perfectamente válido pero que se puede fortalecer por medio de la indagación del contexto de la problemática identificada, previamente al ejercicio de definición del problema central.
         
         p.mt-3 La acertada formulación del proyecto y el mismo éxito de la intervención dependen en gran medida de la adecuada identificación del problema, es por esto que se deben dedicar <strong>esfuerzos proporcionales en la etapa de diagnóstico.</strong> El principal referente de este documento, Ortegón et.al (2005), aclara que la planificación nace de <strong>la percepción que se tiene de la problemática</strong> y que se puede dar en concordancia con los siguientes aspectos:
     
@@ -461,24 +477,346 @@
     
 
     .row.align-items-center.my-3(style="background: #EEF5D5")(data-aos="fade-up")
-      p.my-4.text-center La información de primera mano es muy valiosa y requiere de un recurso metodológico que puede ser el DRP.
+      p.my-4 La información de primera mano es muy valiosa y requiere de un recurso metodológico que puede ser el DRP.
       .col-lg-6
         p Existen otras metodologías, por ejemplo la propuesta hecha por Orlando Fals Borda en 1977, denominada <strong>“Investigación-Acción-Participación” (IAP)</strong>, que centraliza la persona y no el objeto de la investigación. Otras metodologías pueden enfocarse a grupos pequeños como los familiares, es el caso de la Planificación Predial Participativa (PPP) o a organizaciones y empresas rurales como el <strong>“Índice de Capacidades Organizacionales de la Unión Europea” (ICO)</strong> y la <strong>“Medición del Emprendimiento Rural” (MER)</strong> de la FAO que incorporan todas las distintas áreas que componen una organización formal.
       .col-lg-6
         p La gestión de la información, en todo caso, debe ser organizada y metódica, siguiendo la ruta datos-información-conocimiento; es decir, como un proceso de investigación básico y para ello existen diversas herramientas (de las que habla el punto cinco del ciclo de siete pasos del DRP), que pueden aplicarse en la amplitud de las actividades rurales. Algunas son muy versátiles como las entrevistas y las lluvias de ideas, otras más específicas como los mapas de recursos, las caracterizaciones de las actividades productivas mediante mapeos y los calendarios de producción, otras más enfocadas a aspectos de género o de comunicación, sociales u otros. 
 
-    .row.align-items-center.grad1.p-3
-      .col-lg-2
-        figure
-          img.my-4(data-aos="fade-right",src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
-      .col-lg-7
-        h2.text-light Anexo. Tabla 3
-        .text-light.mb-0 Herramientas para el diagnóstico participativo de organizaciones, empresas o unidades productivas agropecuarias. Geilfus, F. (2002).
-      .col-lg-3.text-center.my-3
-        a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla3.pdf')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
-
+    p.text-center.my-4 <strong>Tabla 3.</strong> Herramientas para el diagnóstico participativo de organizaciones, empresas o unidades productivas agropecuarias.
+    .row.justify-content-center.mx-2.p-4(style="background: #EBEBEB")
+      .col-lg-5
+        strong De aplicación general:
+        .row
+          .col-lg-3.my-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img79.svg', alt='')
+          .col-lg-7.my-3
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta(style="color: black") 
+                |  Diálogo semi-estructurado.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Diálogo con informantes clave.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Diálogo con miembros del hogar.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Diálogo con grupos enfocados.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Formación de grupos de trabajo.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Lluvia de ideas.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Observación participante.          
+      .col-lg-5
+        strong De aspectos sociales:
+        .row
+          .col-lg-3.my-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img80.svg', alt='')
+          .col-lg-7.my-3
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta(style="color: black") 
+                | Perfil de grupo.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Estrategias de vida.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Análisis organizacional / institucional: diagrama de Venn.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Mapa social.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Clasificación por nivel económico: método por informantes clave.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Clasificación por nivel económico: método grupal.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Mapa de servicios y oportunidades.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | La línea del tiempo.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Línea de tendencias.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Gráfico histórico de la comunidad.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Análisis estacional.         
+    .row.justify-content-center.mx-2.p-4(style="background: #E6E6E6")
+      .col-lg-5
+        strong Manejo de recursos naturales:
+        .row
+          .col-lg-3.my-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img81.svg', alt='')
+          .col-lg-7.my-3
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta(style="color: black") 
+                | Mapa de recursos naturales y uso de la tierra.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Caminata y diagrama de corte o transecto.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Diagrama de cuenca.        
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Diagrama y mapeo histórico de recursos naturales.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de evaluación de recursos.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Mapa de acceso a recursos naturales.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de análisis de tomas de decisiones.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de análisis de conflictos.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Clasificación local de suelos.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Uso local de árboles (Inventario para agroforestería).          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Censo de problemas de uso de recursos (basado en diagrama de corte).          
+      .col-lg-5
+        strong De aspectos sociales:
+        .row
+          .col-lg-3.my-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img82.svg', alt='')
+          .col-lg-7.my-3
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta(style="color: black") 
+                | Clasificación preliminar de fincas (según acceso a los recursos).
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Clasificación de fincas 
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Mapeo de finca.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Modelo sistémico de finca.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Recorrido y diagrama de corte de parcela.      
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Caracterización de prácticas de manejo.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Censo de problemas a nivel de finca (basado en mapa y modelo).          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Calendarios estacionales de cultivos.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Flujograma de actividades.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Presupuesto de cultivo (basado en flujogramas de actividades).          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Gráfico histórico del sistema de producción.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Censo de problemas en cultivos y otras actividades estacionales.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Biografía de cultivos.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de preferencia agronómica.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de evaluación agronómica "ex-ante".        
+    .row.justify-content-center.mx-2.p-4(style="background: #EBEBEB")
+      .col-lg-5
+        strong Producción animal:
+        .row
+          .col-lg-3.my-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img83.svg', alt='')
+          .col-lg-7.my-3
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta(style="color: black") 
+                | Inventario de ganado.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Calendarios estacionales de producción animal.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Mapa de recursos forrajeros.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Entrevista a la vaca.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Análisis de problemas veterinarios.          
+      .col-lg-5
+        strong Aspectos de género:
+        .row
+          .col-lg-3.my-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img84.svg', alt='')
+          .col-lg-7.my-3
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta(style="color: black") 
+                | Mapa de finca con aspectos de género.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Uso del tiempo.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Calendario estacional de actividades con enfoque de género.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Mapa de movilidad.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Análisis de beneficios.         
+    .row.justify-content-center.mx-2.p-4(style="background: #E6E6E6")
+      .col-lg-5
+        strong Comunicación y extensión:
+        .row
+          .col-lg-3.my-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img85.svg', alt='')
+          .col-lg-7.my-3
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta(style="color: black") 
+                | Mapa de intercambios.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Censo de problemas a nivel de comunicación /intercambios.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de necesidades prioritarias de extensión / asistencia técnica.        
+      .col-lg-5
+        strong Análisis de problemas y soluciones:
+        .row
+          .col-lg-3.my-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img86.svg', alt='')
+          .col-lg-7.my-3
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta(style="color: black") 
+                | Árbol de problemas: diagrama de causas y efectos.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de priorización de problemas. 
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Identificación de soluciones locales o introducidas.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Auto-diagnóstico y análisis de campo de soluciones locales.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de evaluación de soluciones.      
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Análisis FODA.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Selección de opciones: opción única.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Selección de opciones: opciones múltiples.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Cuestionario visualizado.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Análisis de pro y contra (juego de sí señor - no señor).          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Análisis de impacto.
+    .row.justify-content-center.mx-2.p-4(style="background: #EBEBEB")
+      .col-lg-5
+        strong Planificación:
+        .row
+          .col-lg-3.my-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img87.svg', alt='')
+          .col-lg-7.my-3
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta(style="color: black") 
+                | Mapa de ordenamiento comunal.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Mapa de ordenamiento de finca.         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Plan de finca.        
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de objetivos (marco lógico).        
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de necesidad y disponibilidad.        
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de plan de acción.        
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de toma de responsabilidades.        
+      .col-lg-5
+        strong Monitoreo y evaluación participativos:
+        .row
+          .col-lg-3.my-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img88.svg', alt='')
+          .col-lg-7.my-3
+            ul.lista-ul
+              li 
+                i.lista-ul__vineta(style="color: black") 
+                | Matriz de planificación de monitoreo y evaluación.
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de indicadores de monitoreo. 
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Formularios para monitoreo participativo (cumplimiento de tareas).         
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Auto-diagnóstico y análisis de campo de soluciones locales.          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Formularios para monitoreo participativo (indicadores cuantitativos).      
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Formularios para monitoreo participativo (indicadores cualitativos).          
+              li
+                i.lista-ul__vineta(style="color: black")
+                | Matriz de indicadores de evaluación de impacto.
+    p.text-center.my-3  Geilfus, F. (2002).
+              
     Separador
     #t_2_6.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 2.6 Priorización de problemas a través de la herramienta “Matriz de Vester”
@@ -630,6 +968,7 @@
         .col-lg-12.mb-4.mb-md-0
           p Se asigna la puntuación empezando por <strong>la fila superior de izquierda a derecha</strong>, teniendo en cuenta que esta ponderación corresponde al grado de influencia del problema de la fila con respecto a cada problema de las columnas. Al establecer las relaciones de causalidad es importante considerar una relación directa entre los problemas. Una forma de verificar que el ejercicio se está haciendo bien es que al terminar de asignar valores, no más del 30% de ellos corresponde a un valor de tres (3); caso contrario, existe un sesgo atribuible a la falta de definición de los problemas o a la consideración de causas indirectas entre ellos. Se puede hacer esta pregunta cada vez que se confronten los problemas: <strong>¿Cómo influye el problema 1 sobre el problema 2?; ¿Cómo influye el problema 1 sobre el problema 3?</strong>, y así sucesivamente… el orden se establece en las filas, de superior a inferior. Para el valor a asignarse puede usar la siguiente escala:
           p.text-center <strong>Tabla 5.</strong> Escala de valores.
+          .tabla-b.color-acento-contenido  
             table(style="background-color: white")
               thead
                 tr(style='background-color: #FF8C69')
@@ -1065,7 +1404,7 @@
               span 2
             | Las acciones o hechos tienen una relación de precedencia (en el tiempo): si A precede a B, entonces A puede ser causa de B o B es efecto de A, teniendo como condición una proximidad en el espacio y tiempo.
         figure
-          p.my-3.text-center <strong>Figura 6.</strong> Ejemplo de causa y efecto. Ejemplo de causa y efecto. 
+          p.my-3.text-center <strong>Figura 6.</strong> Ejemplo de causa y efecto.
           img(src="@/assets/curso/temas/tema2/img6.svg", alt="Muestra el componente formativo un ejemplo de causa y efecto, de acuerdo: Desconocimiento de las fuentes de información de precios de mercado. Capacidad limitada de negociación de bienes y*o servicios. Capacidad limitada de negociación de bienes y*o servicios.")
         figcaption Bernal (2021).
       .col-lg-4
@@ -1126,7 +1465,7 @@
           p.bloque-texto-f__texto Esta situación se explica en gran medida por las inadecuadas prácticas de separación de los residuos de los hogares, el comercio y la industria local, por la forma en la que operan las rutas de transporte para su recolección. Los vehículos compactadores terminan mezclando los residuos orgánicos e inorgánicos, por las restricciones de espacios adecuados y dotados con las condiciones tecnológicas para la valorización de diferentes tipos de residuos. <br><br>
           p.bloque-texto-f__texto También las dificultades organizativas y de intermediación comercial con las que operan regularmente 85 personas identificadas como recuperadores informales dedicados al oficio del reciclaje. <br><br>
           p.bloque-texto-f__texto La situación tiende a agravarse en la medida que crece anualmente la generación de residuos en aproximadamente un 3% anual sin que el plástico, el papel, el vidrio, los metales y los residuos orgánicos se aprovechen y se reincorporen al ciclo productivo. Esto implica una mayor explotación de los recursos naturales para la obtención de estas materias primas y está llevando progresivamente al agotamiento de la vida útil del relleno sanitario donde se disponen los residuos con consecuencias negativas para el medio ambiente y la salud pública. Los afluentes se ven contaminados por la escorrentía de los lixiviados de los materiales orgánicos, la atmósfera por la emisión de gases de efecto invernadero (GEI) y las personas de la zona por la presencia de vectores de transmisión de enfermedades.<br><br>
-          p.bloque-texto-f__texto Adicionalmente, el aumento en la demanda del servicio de disposición final de residuos también ha venido representando el incremento del 15% en la tarifa de aseo que los usuarios del sistema tienen que pagar periódicamente según estimaciones realizadas por la unidad de servicios públicos domiciliarios. También la pérdida de ingresos que de otra forma podrán generarse gracias a la posibilidad de venta de materiales recuperados según las cifras de comercialización que han sido estimadas mediante el estudio de mercado que se presenta más adelante. <strong>(DNP, 2016, p.18)</strong>
+          p.bloque-texto-f__texto Adicionalmente, el aumento en la demanda del servicio de disposición final de residuos también ha venido representando el incremento del 15% en la tarifa de aseo que los usuarios del sistema tienen que pagar periódicamente según estimaciones realizadas por la unidad de servicios públicos domiciliarios. También la pérdida de ingresos que de otra forma podrán generarse gracias a la posibilidad de venta de materiales recuperados según las cifras de comercialización que han sido estimadas mediante el estudio de mercado que se presenta más adelante. <strong>(DNP, 2016, p.18)</strong>.
 
     .row.align-items-center.my-3(data-aos="fade-left")
       .col-lg-10.m-auto

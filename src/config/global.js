@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Formulación de proyectos agroecológicos bajo el enfoque de marco lógico',
     descripcionCurso:
-      'El enfoque metodológico del marco lógico es una herramienta potente, en el que se realizan una serie  de acciones para conocer los diferentes factores que inciden en una problemática y vislumbrar la posible solución.  Facilita el desarrollo de procesos de participación para generar estrategias y prácticas en la consecución de los  objetivos productivos y comerciales del plan de manejo agroecológico',
+      'El enfoque metodológico del marco lógico es una herramienta de gran versatilidad y potencia, definida por una serie de acciones que en secuencia proporcionan una consideración amplia e incluso participativa de los factores que inciden en la problemática y en su posible solución. De esta forma se observa el contexto general y particular, los actores involucrados, el análisis causal y prospectivo, la evaluación de las alternativas de solución, los riesgos potenciales a enfrentar, la construcción y el seguimiento de indicadores de gestión entre otras variables, a través de un análisis sistémico y organizado que de hacerse de manera coherente, facilita la solución efectiva de problemas específicos con buenos resultados.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -492,7 +492,7 @@ export default {
         },
         {
           nombre: 'Rafael Pérez Meriño',
-          cargo: 'Desarrollo fullstack ',
+          cargo: 'Desarrollo <em>fullstack</em> ',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },

@@ -95,11 +95,59 @@
         p Puede suceder que las actividades sean perfectamente compatibles, a esto se les denomina <strong>complementarias o conjuntivas</strong>; pero también puede ser que algunas no lo sean, en este caso formarían otra alternativa y a estas actividades se les denomina excluyentes o disyuntivas. Siguiendo con el ejemplo de referencia, las alternativas se encuentran expresadas como acciones de intervención agrupadas de acuerdo a la compatibilidad entre ellas y por cada uno de los objetivos. Las letras <strong>C</strong> y <strong>E</strong> a la derecha, significan complementarias y excluyentes:
     
     .row.my-3(style="background: #F7FAEA")(data-aos="fade-up")
-      .col-lg-10.m-auto.my-5
-        figure
-          p.my-5.text-center <strong>Figura 11.</strong> Ejemplo de propuesta de acción.
-          img(src="@/assets/curso/temas/tema2/img66.svg", alt="Muestra el componente formativo un ejemplo de propuesta de acción, de acuerdo a: Mejorar las  prácticas de separación de materiales. Implementar espacios eficientes para la valoración de residuos solidos.")
-        p.text-center Tomado de la guía de proyectos del DNP (2016).
+      .col-lg-10.m-auto.my-3
+        p.mt-5.text-center <strong>Figura 11.</strong> Ejemplo de propuesta de acción.
+        p.text-center <strong>Aumentar el aprovechamiento de los residuos sólidos domiciliarios <br> de la zona urbana del municipio XXX, del departamento de XXX.</strong>
+        .row.my-3.justify-items-center.d-none.d-lg-flex
+          .col-lg-4
+            p.text-center <strong>Objetivos específicos</strong>
+          .col-lg-5
+            p.text-center <strong>Acciones de intervención posibles</strong>
+          .col-lg-3
+            p.text-center <strong>Tipo</strong>
+        .row.justify-content-center
+          .col-lg-3.p-5.align-content-center(style="background: #FFD947")
+            p.text-center.d-block.d-lg-none <strong>Objetivos específicos</strong>
+            p.text-center <strong>1.</strong> Mejorar las prácticas de separación de materiales
+          .col-lg-8.mx-3
+            .row.justify-content-center.p-4.mb-3(style="background: #FFF8DA")
+              .col-lg-11.col-md-6
+                  p.text-center.d-block.d-lg-none <strong>Acciones de intervención posibles</strong>
+                  strong Separación en la fuente:
+                  p.mb-0 1. Campañas de sensibilización (puerta a puerta, PRAEs, PROCEDA).
+                  p 2. Reglamentación e implementación de incentivos y sanciones.
+              .col-lg-1.col-md-6.align-content-center
+                  p.text-center.d-block.d-lg-none <strong>Tipo</strong>
+                  strong.py-3.text-center C
+            .row.justify-content-center.p-4(style="background: #FFF8DA")
+              .col-lg-11.col-md-6
+                  p.text-center.d-block.d-lg-none <strong>Acciones de intervención posibles</strong>
+                  strong Separación recolección:
+                  p.mb-0 3. Adecuación de rutas según días definidos por tipo de material.
+                  p.mb-0 4. Implementación de rutas selectivas utilizando vehículos recolectores con compartimientos mixtos.
+                  p.mb-0 5. Recolección realizada por recuperadores en vehículos de tracción animal.
+              .col-lg-1.col-md-6.align-content-center
+                p.text-center.d-block.d-lg-none <strong>Tipo</strong>
+                strong.py-3.text-center E
+
+        .row.mt-3.justify-content-center
+          .col-lg-3.align-content-center.justify-content-center.p-5(style="background: #ADCE32")
+            p.text-center.d-block.d-lg-none <strong>Objetivos específicos</strong>
+            p.text-center <strong>2.</strong> Implementar espacios eficientes para la valorización de residuos sólidos
+          .col-lg-8.mx-3
+            .row.justify-content-center.p-4(style="background: #FFF8DA; min-height: 210px")
+              .col-lg-11.col-md-6
+                  p.text-center.d-block.d-lg-none <strong>Acciones de intervención posibles</strong>
+                  strong Infraestructura:
+                  p.mb-0 6. Construcción y dotación de estación de aprovechamiento (orgánicos e inorgánicos).
+                  p 7. Construcción de planta incineradora (de residuos orgánicos) para generación de energía.
+              .col-lg-1.col-md-6.align-content-center
+                p.text-center.d-block.d-lg-none <strong>Tipo</strong>
+                strong.py-3.text-center E
+      figure
+        img(src="@/assets/curso/temas/tema3/img25.svg", alt="", width="330px", height="250px")
+
+        p.text-center.mt-4 Tomado de la guía de proyectos del DNP (2016).
     
     p Como tercer paso los autores de la guía del ejemplo del DNP recomiendan realizar un filtro de las actividades, determinando su <strong>viabilidad técnica, financiera o legal.</strong> Luego de seleccionadas las actividades y teniendo en cuenta su compatibilidad se llega a las siguientes conclusiones:
 
@@ -124,7 +172,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/img69.svg", alt="", width= "100px", height="100px")
           .col(style="z-index:1")
-            p Que se generarían dos alternativas posibles: 
+            p.m-0  Que se generarían dos alternativas posibles: 
             .row.my-3
               .col-lg-5.px-3
                 .p-4.my-3(style="background: white; border-radius: 10px;")
@@ -570,21 +618,113 @@
             td 4
             td 20
             td Crítico
+    .div.p-2(style="background: #F4F4F4")
+      p.text-center <strong>Figura 11.</strong> Modelo de matriz de evaluación de riesgos
+      .row.mt-5.mb-4.align-items-center.text-center(data-aos="fade-up")
+        .col-lg-12.m-auto
+          .tabla-b.color-acento-contenido(data-aos="fade-up")
+            table
+              thead
+                tr(style="background: #FFA686")
+                  th(colspan="8") Matriz de evaluación de riesgo
+                tr
+                  th(colspan="3") 
+                  th(colspan="5") Gravedad del impacto
+              tbody
+                tr
+                  td(colspan="3") 
+                  td Despreciable (1)
+                  td Considerable (2)
+                  td Importante (3)
+                  td Grave (4)
+                  td Catatrófica (5)
+                tr
+                  th(rowspan="5") Probabilidad de ocurrencia
+                  td Muy alta (81%-100%)
+                  td(style="background: #FAFF94") 5
+                  td(style="background: #FAFF94") 5
+                  td(style="background: #FF9500") 10
+                  td(style="background: #FF9500") 15
+                  td(style="background: #FF0000") 20
+                  td(style="background: #FF0000") 25
+                tr
+                  td Alta (61%-80%)
+                  td(style="background: #FAFF94") 4
+                  td(style="background: #FAFF94") 4
+                  td(style="background: #FAFF94") 8
+                  td(style="background: #FF9500") 12
+                  td(style="background: #FF9500") 16
+                  td(style="background: #FF0000") 20
+                tr
+                  td Media (41%-60%)
+                  td(style="background: #FAFF94") 3
+                  td(style="background: #FAFF94") 3
+                  td(style="background: #FAFF94") 6
+                  td(style="background: #FF9500") 9
+                  td(style="background: #FF9500") 12
+                  td(style="background: #FF9500") 15
+                tr
+                  td Baja (21%-40%)
+                  td(style="background: #FFFFFF") 2
+                  td(style="background: #FFFFFF") 2
+                  td(style="background: #FAFF94") 4
+                  td(style="background: #FAFF94") 6
+                  td(style="background: #FAFF94") 8
+                  td(style="background: #FF9500") 12
+                tr
+                  td Muy baja (<20%)
+                  td(style="background: #FFFFFF") 1
+                  td(style="background: #FFFFFF") 1
+                  td(style="background: #FFFFFF") 2
+                  td(style="background: #FAFF94") 3
+                  td(style="background: #FAFF94") 4
+                  td(style="background: #FAFF94") 5
+          .div
+            .row.mt-5 
+              .col-lg-5.align-content-end
+                .contenedor.d-none.d-lg-flex
+                  .caja-1
+                .contenedor-s.d-block.d-lg-none
+                  p.align-content-center.caja-1s 
+              .col-lg-6
+                strong Riesgo crítico
+                p Requiere medidas preventivas urgentes. No se debe iniciar el proyecto sin la confirmación de su prevención o mitigación hasta niveles aceptables.
+            .row.mt-5 
+              .col-lg-5.align-content-end
+                .contenedor.d-none.d-lg-flex
+                  .caja-2
+                .contenedor-s.d-block.d-lg-none
+                  p.align-content-center.caja-2s 
+              .col-lg-6
+                strong Riesgo grave
+                p Requiere medidas preventivas obligatorias. S e deben controlar fuertemente las variables de riesgo durante el proyecto y deseñar un plan de mitigación.
+            .row.mt-5 
+              .col-lg-5.align-content-end
+                .contenedor.d-none.d-lg-flex
+                  .caja-3
+                .contenedor-s.d-block.d-lg-none
+                  p.align-content-center.caja-3s 
+              .col-lg-6
+                strong Riesgo apreciable
+                p Estudiar y aplicar las posibles las posibles medidas preventivas para reducir el nivel de riesgo. Se debe monitorear y controlar las variables.
+            .row.mt-5 
+              .col-lg-5.align-content-end
+                .contenedor.d-none.d-lg-flex
+                  .caja-4
+                .contenedor-s.d-block.d-lg-none
+                  p.align-content-center.caja-4s   
+              .col-lg-6
+                strong Riesgo marginal
+                p Se vigilará aunque no se requiera medidas preventivas de partida.
 
-    .row.mt-5.mb-4.align-items-center(data-aos="fade-up")
-      .col-lg-10.m-auto
-        figure 
-          p.text-center <strong>Figura 13</strong> Modelo de matriz de evaluación de riesgos.
-          img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imagen decorativa')
-        figcaption  Adaptación de Bernal (2021).
-
+          p.mt-5.text-center Adaptación de Bernal (2021).
 
     .row.mt-5.mb-4.align-items-center(data-aos="fade-right")
       .col-lg-4
         figure 
           img.my-3(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
       .col.lg-8
-        p.my-3 El anterior análisis de riesgos contempla lo que <strong>no debe ocurrir</strong> para que el proyecto se desarrolle como se ha planeado. En el caso de los supuestos se establecen las condiciones y requisitos para que se puedan realizar las actividades, lograr los objetivos y cumplir finalmente con el propósito del proyecto. Es por estas razones que este análisis se hace <strong>posteriormente a la definición de los indicadores y el desglose de las actividades</strong> Es importante tener en cuenta de acuerdo con Ortegón et. al (2005) la forma en que se redactan los supuestos que corresponde a la de un objetivo a alcanzar o mantener por parte de quien fuere necesario a pesar de que estos estén fuera del alcance del ejecutor del proyecto. Ejemplo:
+        p.my-3 El anterior análisis de riesgos contempla lo que <strong>no debe ocurrir</strong> para que el proyecto se desarrolle como se ha planeado. En el caso de los supuestos se establecen las condiciones y requisitos para que se puedan realizar las actividades, lograr los objetivos y cumplir finalmente con el propósito del proyecto. Es por estas razones que este análisis se hace <strong>posteriormente a la definición de los indicadores y el desglose de las actividades.</strong> Es importante tener en cuenta de acuerdo con Ortegón et. al (2005) la forma en que se redactan los supuestos que corresponde a la de un objetivo a alcanzar o mantener por parte de quien fuere necesario a pesar de que estos estén fuera del alcance del ejecutor del proyecto. Ejemplo:
         .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFA68625")
           h6.mt-0 “Los precios agrícolas mantienen sus niveles (dentro de una banda de + 10%) en términos reales” (p.89). 
     
@@ -637,24 +777,136 @@
           .col(style="z-index:1")
             p.m-0 Los indicadores definidos permiten hacer un buen seguimiento del proyecto y evaluar adecuadamente el logro de los objetivos. 
 
-    .row.p-3
+    .row.p-3.d-none.d-lg-flex
       .col-lg-10.m-auto 
         p.my-4 La gráfica que sigue nos enseña <strong>la forma de lectura global de la MML</strong>, la relación entre las distintas partes que componen la matriz y cómo en una sola herramienta se logra visualizar de manera general todo un proyecto, sin duda uno de los aspectos positivos de la metodología. 
+        .row
+          .col-lg-3
+            p.grafica-1.fs-4 <strong>Fin</strong>
+          .col-lg-2.align-content-center
+            figure
+              img(src="@/assets/curso/temas/tema3/Trazado 26822.svg", alt="")
+          .col-lg-7
+            p.grafica-2.fs-4 + Supuestos sobre sostenibilidad
+        .row.justify-content-center
+          .col-lg-9
+            figure
+              img(src="@/assets/curso/temas/tema3/Trazado 26825.svg", alt="")
+        .row
+          .col-lg-3
+            p.grafica-1.fs-4 <strong>Propósito</strong>
+          .col-lg-2.align-content-center
+            figure
+              img(src="@/assets/curso/temas/tema3/Trazado 26822.svg", alt="")
+          .col-lg-7
+            p.grafica-2.fs-4 + Supuestos Propósito - Fin
+        .row.justify-content-center
+          .col-lg-9
+            figure
+              img(src="@/assets/curso/temas/tema3/Trazado 26825.svg", alt="")
         figure
-          img(data-aos="fade-up",src="@/assets/curso/temas/tema3/img23.svg", alt="")
-    
-    .row.align-items-center.grad1.my-5.p-3
-      .col-lg-2
-        figure
-          img.my-3(data-aos="fade-right",src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
-      .col-lg-7
-        h2.text-light <strong>Tabla 13.</strong> Matriz de marco lógico completa con la explicación de cada apartado.
-        .text-light.mb-0 Para la comprensión global de la MML, se puede revisar la matriz completa con la correspondiente explicación de cada apartado:
-      .col-lg-3.text-center.my-3
-        a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla13.pdf')" target="_blank" type="application/pdf")
-          span Descargar
-          i.fas.fa-file-download
+        .row
+          .col-lg-3
+            p.grafica-1.fs-4 <strong>Componentes</strong>
+          .col-lg-2.align-content-center
+            figure
+              img(src="@/assets/curso/temas/tema3/Trazado 26822.svg", alt="")
+          .col-lg-7
+            p.grafica-2.fs-4 + Supuestos Componentes - Propósito
+        .row.justify-content-center
+          .col-lg-9
+            figure
+              img(src="@/assets/curso/temas/tema3/Trazado 26825.svg", alt="")
+        .row
+          .col-lg-3
+            p.grafica-1.fs-4 <strong>Actividades</strong>
+          .col-lg-2.align-content-center
+            figure
+              img(src="@/assets/curso/temas/tema3/Trazado 26822.svg", alt="")
+          .col-lg-7
+            p.grafica-2.fs-4 + Supuestos Actividades - Componentes
 
+    .row.p-3.d-block.d-lg-none
+      .col-lg-10.m-auto 
+        p.my-4 La gráfica que sigue nos enseña <strong>la forma de lectura global de la MML</strong>, la relación entre las distintas partes que componen la matriz y cómo en una sola herramienta se logra visualizar de manera general todo un proyecto, sin duda uno de los aspectos positivos de la metodología. 
+        .row
+          .col-lg-7
+            p.grafica-2s.fs-4 + Supuestos sobre sostenibilidad
+            .col-lg-9.my-2
+            figure
+              img.my-2(src="@/assets/curso/temas/tema3/linea2.svg", alt="", height="70px")
+          .col-lg-3
+            p.grafica-1.fs-4 <strong>Fin</strong>
+        .row.justify-content-center
+        .col-lg-9.my-2
+            figure
+              img.my-2(src="@/assets/curso/temas/tema3/linea2.svg", alt="", height="70px")
+        .row
+          .col-lg-7
+            p.grafica-2s.fs-4 + Supuestos Propósito - Fin
+            .col-lg-9.my-2
+            figure
+              img.my-2(src="@/assets/curso/temas/tema3/linea2.svg", alt="", height="70px")
+          .col-lg-3
+            p.grafica-1.fs-4 <strong>Propósito</strong>
+        .row.justify-content-center
+        .col-lg-9.my-2
+            figure
+              img.my-2(src="@/assets/curso/temas/tema3/linea2.svg", alt="", height="70px")
+        .row
+          .col-lg-7
+            p.grafica-2s.fs-4 + Supuestos Componentes - Propósito
+          .col-lg-9.my-2
+            figure
+              img.my-2(src="@/assets/curso/temas/tema3/linea2.svg", alt="", height="70px")
+          .col-lg-3
+            p.grafica-1.fs-4 <strong>Componentes</strong>
+        .row.justify-content-center
+          .col-lg-9.my-2
+            figure
+              img.my-2(src="@/assets/curso/temas/tema3/linea2.svg", alt="", height="70px")
+        .row
+          .col-lg-7
+            p.grafica-2s.fs-4 + Supuestos Actividades - Componentes
+            .col-lg-9.my-2
+            figure
+              img.my-2(src="@/assets/curso/temas/tema3/linea2.svg", alt="", height="70px")
+          .col-lg-3
+            p.grafica-1.fs-4 <strong>Actividades</strong>
+
+
+    
+    p.text-center <strong>Tabla 13.</strong> Matriz de marco lógico completa con la explicación de cada apartado.
+    .tabla-b.color-acento-contenido.text-center.my-3(style="background: white")
+      table
+        thead 
+          tr(style="background: #FFA686")
+            th Resumen narrativo de objetivos
+            th Indicadores objetivamente verificables
+            th Fuentes de verificación
+            th Supuestos
+        tbody
+          tr
+            td <strong>Fin (Objetivo general)</strong> <br>El fin es una definición de cómo el proyeco o programa contribuirá a la solución del problema (o problemas) del sector.
+            td Miden el impacto general que tendrá el proyecto. Son específicos en términos de cantidad, calidad y tiempo (grupo social y lugar si es relevante).
+            td Fuentes de información que se pueden utilizar para verificar si los objetivos se lograron.
+            td Indican los acontecimientos, las condiciones importantes necesarias para la sostenibilidad (continuidad en el tiempo) de los beneficios generados por el proyecto.
+          tr 
+            td <strong> Propósito (Objetivo específico)</strong> <br>El propósito es el impacto directo a ser logrado como resultado de la utilización de los componentes producidos por el proyecto. Es una hipótesis sobre el impacto o beneficio que se desea lograr.
+            td Describen el impacto logrdo al final del proyecto. Deben incluir metas que reflejan la situación al finalizar el proyecto. Cada indicador especifica calidad, cantidad y tiempo de los resultados por alcanzar.
+            td Fuentes que el ejecutor y el evaluador pueden consultar para ver si los objetivos se están logrando. Pueden indicar si exsite un problema y sugieren la necesidad de cambio en los componentes del proyecto. Pueden incluir material publicado, inspección visual, encuestas por muestreo.
+            td Indican los acontecimientos, condiciones o las decisiones que tienen que ocurrir para que el proyecto contribuya efectivamente al logro del fin.
+          tr
+            td <strong> Componentes (Resultados)</strong> <br>Obras, servicios y capacitación que se requiere que complete el ejecutor del proyecto de acuerdo con el trato. Estos deben expresarse en trabajo terminado (sistemas instalados, gente capacitada).
+            td Son descripciones breves pero claras de cada uno de los componentes que tiene que terminarse durante la ejecución. Cada uno debe especificar cantidad, calidad y oportunidad de las obras y servicios que deberán entregarse.
+            td Indica dónde puede un evaluador obtener información para verificar que los resultados han sido producidos. Las fuentes pueden incluir inspección en sitios internos, auditorías, etc.
+            td Acontecimientos, condiciones o decisiones que tienen que ocurrir para que los componentes del proyecto alcancen el propósito para el cual se llevaron a cabo.
+          tr
+            td <strong> Actividades (Acciones)</strong> <br>Tareas que el ejecutor debe cumplir para completar cada uno de los componentes del proyecto y que implican costos. Se hace una lista de actividades en orden analógico para cada componente.
+            td Presupuesto para cada componente a ser producido para el proyecto.
+            td Indica dónde puede un evaluador obtener información para verificar si el presupuesto se gastó como estaba planificado. Normalmente constituye el registro contable de la unidad ejecutable.
+            td Acontecimientos, condiciones o decisiones (fuera del control del gerente del proyecto) que tienen que suceder para completar los componentes del proyecto.
+    p.text-center.my-3 Tomado de la guía para la formulación de proyectos de inversión del sector agropecuario de la FAO, 2017.
     Separador
     #t_3_5.titulo-segundo.color-acento-contenido
       h2(data-aos="fade-left") 3.5 Plan operativo y presupuesto general

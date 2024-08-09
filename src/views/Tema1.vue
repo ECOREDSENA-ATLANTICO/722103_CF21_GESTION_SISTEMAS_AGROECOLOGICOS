@@ -13,7 +13,7 @@
         )
 
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
-        p.mb-0 La metodología de elaboración de proyectos bajo el<strong> Enfoque de Marco Lógico (EML)</strong> es en sí, una <strong>herramienta para la ordenación de información relacionada a un proyecto, basada en el razonamiento lógico</strong>; es decir, donde a partir de unas observaciones asumidas como verdaderas, se puede inferir, en ambos sentidos (causas o efectos), otras que en consecuencia, también serán verdaderas y que se denominan hipótesis. El EML se usa principalmente para la indagación de problemas, diseño, ejecución y evaluación de proyectos (CEPAL, 2005). Se enfoca principalmente hacia la consecución de objetivos pero facilitando la participación de los interesados, llamados stakeholders.
+        p.mb-0 La metodología de elaboración de proyectos bajo el<strong> Enfoque de Marco Lógico (EML)</strong> es en sí, una <strong>herramienta para la ordenación de información relacionada a un proyecto, basada en el razonamiento lógico</strong>; es decir, donde a partir de unas observaciones asumidas como verdaderas, se puede inferir, en ambos sentidos (causas o efectos), otras que en consecuencia, también serán verdaderas y que se denominan hipótesis. El EML se usa principalmente para la indagación de problemas, diseño, ejecución y evaluación de proyectos (CEPAL, 2005). Se enfoca principalmente hacia la consecución de objetivos pero facilitando la participación de los interesados, llamados <em>stakeholders</em>
 
     .row.my-4.align-items-center
       .col-lg-4
@@ -94,19 +94,65 @@
           p.mb-0 Aunque la <strong>MML</strong> es vigente, es posible robustecer esta metodología a través de la incorporación de otras herramientas o incluso la modificación de la <strong>MML</strong>, como por ejemplo lo hace la <strong>MBR</strong> (matriz basada en resultados, una variante, así como lo es <strong>ZOPP</strong>, de la MML). 
         p Para avanzar en la planificación se complementa el ejercicio a través de un cronograma que puede ser un diagrama de Gantt o similar. Si al cronograma se agrega un análisis de costos de las actividades y además una delegación de responsabilidades a un equipo de trabajo, contará con los insumos necesarios para el establecimiento del <strong>plan de acción.</strong>
 
-        .row.mb-4
-          .col-lg-10.m-auto
-            .row.align-items-center.grad1.p-3
-              .col-lg-2
-                figure
-                  img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
-              .col-lg-7
-                h2.text-light Anexo. Tabla 1
-                .text-light.mb-0 Actividades del enfoque de marco lógico, herramientas y resultados a obtener. Bernal (2021).
-              .col-lg-3.text-center.my-3
-                a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_tabla1.pdf')" target="_blank" type="application/pdf")
-                  span Descargar
-                  i.fas.fa-file-download
+        p.text-center <strong>Tabla 1.</strong> Actividades del enfoque de marco lógico, herramientas y resultados a obtener.
+        .tabla-b.color-acento-contenido.text-center(style="background: white")
+          table
+            thead
+              tr(style="background: #FFA686")
+                th Actividad
+                th Herramientas
+                th resultados
+              tr
+                th(colspan="3") Etapa de análisis
+            tbody
+              tr
+                td Análisis del contexto e información secundaria
+                td Registro de fuentes consultadas
+                td Documento con resultados del análisis e información relevante consultada
+              tr
+                td Análisis de actores involucrados
+                td Tabla de análisis de involucrados
+                td Definición del grado de participación y acciones estratégicas
+              tr
+                td Identificación de problemas
+                td Lluvia de ideas, DRP, herramientas de diagnóstico a partir de información primaria
+                td Listado general de problemas
+              tr
+                td Priorización de problemas e identificación del problema central
+                td Matriz de Vester
+                td Problema central, causas y problemas exógenos identificados
+              tr 
+                td Análisis de problemas
+                td Árbol de problemas
+                td Identificación de causas y efectos (directos e indirectos) del problema centar
+              tr
+                td Análisis de objetivos
+                td Árbol de objetivos
+                td Identificación del objetivo principal, objetivos secundarios, medios y fin del proyecto
+              tr
+                th(colspan="3") Etapa de planificación 
+              tr
+                td Desarrollo de la matriz de planificación
+                td Matriz de Marco Lógico (MML)
+                td Matriz de Marco Lógico parcialmente estructurada
+              tr
+                td Diseño de indicadores y medios de verificación
+                td Matriz de Marco Lógico (MML)
+                td Matriz de Marco Lógico alimentada con indicadores y medios de verificación
+              tr
+                td Análisis de riesgos y establecimiento de supuestos
+                td Matriz de Marco Lógico (MML)
+                td Matriz de Marco Lógico completa
+              tr
+                td Desarrollo del plan operativo
+                td Resumen narrativo del proyecto, cronograma y presupuesto general
+                td Documento final
+        p.text-center Bernal (2021).
+
+
+            
+            
+
   </template>
 
 <script>
