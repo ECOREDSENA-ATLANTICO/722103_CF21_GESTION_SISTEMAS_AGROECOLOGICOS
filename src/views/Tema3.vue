@@ -383,7 +383,7 @@
       div.col-lg-5.p-4(style="background: #FFF2CB; border-radius: 10px")
         p <strong>Segundo momento</strong> “El formato cuatro por cuatro, que permite a los equipos de proyecto resaltar gráficamente los objetivos, los resultados y las actividades que se espera generar dentro del ciclo de vida del proyecto. Las 16 celdas que conforman la matriz del marco lógico se encuentran dinámicamente relacionadas por una lógica vertical y horizontal o de causa-efecto; por lo tanto, los cambios que se efectúen en una celda normalmente ocasionarán cambios en el resto de las celdas” (p.17).
 
-    p.text-center <strong>Tabla 10.</strong> Esquema de la matriz de marco lógico . 
+    p.text-center <strong>Tabla 10.</strong> Esquema de la matriz de marco lógico. 
     .tabla-b.color-acento-contenido(data-aos="fade-up")
       table
         thead
@@ -599,7 +599,7 @@
         figure 
           img(src='@/assets/curso/temas/tema3/img17.png', alt='Imagen decorativa')
 
-    p.text-center <strong>Tabla 12.</strong> Ejemplos de análisis de riesgos
+    p.text-center <strong>Tabla 12.</strong> Ejemplos de análisis de riesgos.
     .tabla-b.color-acento-contenido.mb-5(data-aos="fade-up")
       table
         thead
@@ -619,7 +619,7 @@
             td 20
             td Crítico
     .div.p-2(style="background: #F4F4F4")
-      p.text-center <strong>Figura 11.</strong> Modelo de matriz de evaluación de riesgos
+      p.text-center <strong>Figura 13.</strong> Modelo de matriz de evaluación de riesgos.
       .row.mt-5.mb-4.align-items-center.text-center(data-aos="fade-up")
         .col-lg-12.m-auto
           .tabla-b.color-acento-contenido(data-aos="fade-up")
