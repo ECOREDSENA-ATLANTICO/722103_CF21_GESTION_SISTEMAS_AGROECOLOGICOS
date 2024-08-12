@@ -1340,14 +1340,14 @@
           figcaption Tomado de Silva y Sandoval (2012).
                   
 
-    .row.my-5.align-items-center.p-3(data-aos="fade-up")(style="background: #FFFAEB")
-      .col-lg-8
+    p.mt-5 En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
+    .row.mb-5.align-items-center.p-3(data-aos="fade-up")(style="background: #FFFAEB")
+      .col-lg-10.m-auto
         p.text-center <strong>Figura 4.</strong> Ejemplo de la forma gráfica de la matriz ID. 
         figure
           img(src="@/assets/curso/temas/tema2/img10.svg", alt="Muestra el componente formativo un ejemplo de la forma gráfica de la matriz ID. Tomado de Silva y Sandoval. Teniendo en cuenta su dependencia e influencia.")
         p.text-center Tomado de Silva y Sandoval (2012).
-      .col-lg-4
-        p En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
+
 
     
     Separador
