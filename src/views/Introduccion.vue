@@ -93,7 +93,7 @@
       .col-lg-6
         p.mb-0(data-aos="fade-left") Finalmente el enfoque metodológico de marco lógico es un medio, por lo que <strong>no podrá per se subsanar fallas en las políticas macroeconómicas o de planes maestros como los gubernamentales</strong>; además, los análisis iniciales deberán estar bien planteados para el logro de los resultados esperados con la aplicación del enfoque y esto estará condicionado por la calidad de la información y de los insumos que se disponga. En este documento se abordan <strong> los pasos iniciales para la aplicación de la metodología</strong> iniciando con las distintas herramientas complementarias que siguen un orden secuencial, hasta la construcción de la <strong>Matriz de Marco Lógico (MML)</strong>, el producto final y que resume el enfoque. 
 
-    .row.my-5(data-aos="fade-up")
+    .row.my-5
       .col-lg-10.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
         .row.align-items-center
           .col-auto(style="z-index:1")

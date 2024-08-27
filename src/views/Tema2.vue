@@ -266,7 +266,7 @@
     .tabla-b.color-acento-contenido.text-center(style="background: white")
       table
         thead 
-          tr(style="background: #FFA686")
+          tr.text-light(style="background: #006555")
             th Actor
             th Grado de influencia<br> (Bajo, medio, alto)
             th Tipo de actitud <br>(Positiva, negativa o indiferente)
