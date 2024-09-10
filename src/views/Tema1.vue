@@ -97,6 +97,7 @@
         p.text-center <strong>Tabla 1.</strong> Actividades del enfoque de marco lógico, herramientas y resultados a obtener.
         .tabla-b.color-acento-contenido.text-center(style="background: white")
           table
+            caption  Fuente. Actividades del enfoque de marco lógico, herramientas y resultados a obtener. Bernal (2021).
             thead
               tr(style="background: #FFA686")
                 th Actividad
@@ -147,7 +148,7 @@
                 td Desarrollo del plan operativo
                 td Resumen narrativo del proyecto, cronograma y presupuesto general
                 td Documento final
-        p.text-center Bernal (2021).
+       
 
 
             

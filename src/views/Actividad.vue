@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Apropiación de conceptos
-        p.mb-4 #[b Recordar los conceptos de la formulación de proyectos agroecológicos bajo el Enfoque de Marco Lógico, para implementar en el sector rural] 
+        p.mb-4 Recordar los conceptos de la formulación de proyectos agroecológicos bajo el Enfoque de Marco Lógico, para implementar en el sector rural
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

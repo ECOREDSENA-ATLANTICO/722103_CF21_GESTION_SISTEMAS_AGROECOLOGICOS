@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra el componente formativo la síntesis de la Formulación de proyectos agroecológicos bajo el enfoque de marco lógico, la cual cuenta con una matriz de Marco Lógico (MML). Esta esta dividida en dos etapas, las cuales son etapa de análisis y etapa de planificación.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Formulación de proyectos agroecológicos bajo el enfoque de marco lógico',
     descripcionCurso:
-      'El enfoque metodológico del marco lógico es una herramienta de gran versatilidad y potencia, definida por una serie de acciones que en secuencia proporcionan una consideración amplia e incluso participativa de los factores que inciden en la problemática y en su posible solución. De esta forma se observa el contexto general y particular, los actores involucrados, el análisis causal y prospectivo, la evaluación de las alternativas de solución, los riesgos potenciales a enfrentar, la construcción y el seguimiento de indicadores de gestión entre otras variables, a través de un análisis sistémico y organizado que de hacerse de manera coherente, facilita la solución efectiva de problemas específicos con buenos resultados.',
+      'El enfoque metodológico del marco lógico es una herramienta potente, en el que se realizan una serie de acciones para conocer los diferentes factores que inciden en una problemática y vislumbrar la posible solución. Facilita el desarrollo de procesos de participación para generar estrategias y prácticas en la consecución de los objetivos productivos y comerciales del plan de manejo agroecológico.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -169,9 +169,8 @@ export default {
       tema: 'Generalidades del enfoque de marco lógico',
       referencia:
         'Tecnnova SENA. (s.f.). Formulación de proyectos bajo la metodología Marco Lógico.',
-      tipo: 'Libro',
-      link:
-        'https://ecored-sena.github.io/TECNICO_AGROPECUARIO_CF2/public/media/documentos/CEPAL-2011.pdf',
+      tipo: 'Artículo',
+      descarga: '/downloads/CEPAL-2011.pdf',
     },
     {
       tema: 'Análisis del contexto en torno a la problemática de la ruralidad',
@@ -200,14 +199,14 @@ export default {
       tema:
         'Priorización de problemas a través de la herramienta “matriz vester”',
       referencia:
-        'Castro Maldonado, J. J. (7 de julio de 2020). Matriz Vester. Obtenido de  https://www.youtube.com/watch?v=IPV3xyXb7x8',
+        'Castro Maldonado, J. J. (7 de julio de 2020). Matriz Vester.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=IPV3xyXb7x8',
     },
     {
       tema: 'Análisis causa-efecto a través de la “metodología de árboles”',
       referencia:
-        'Universidad de Antioquia. (29 de julio de 2021). Árbol de problemas. Obtenido de  https://www.youtube.com/watch?v=SwxlOk7PcQU&ab_channel=Udearroba',
+        'Universidad de Antioquia. (29 de julio de 2021). Árbol de problemas.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=SwxlOk7PcQU&ab_channel=Udearroba',
     },
@@ -397,8 +396,7 @@ export default {
     {
       referencia:
         'Practical Concepts Incorporated (PCI) (1979). The logical framework, a manager’s guide to a scientific approach to design & evaluation. PCI',
-      link:
-        'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://pdf.usaid.gov/pdf_docs/pnaec576.pdf&ved=2ahUKEwiWlcnZtsCHAxWDSjABHWzuDgwQFnoECAgQAQ&usg=AOvVaw0KghoD0bL1kiYU-eB8Hv7T',
+      link: 'https://pdf.usaid.gov/pdf_docs/pnaec576.pdf',
     },
     {
       referencia:

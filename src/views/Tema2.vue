@@ -29,7 +29,7 @@
               img.my-3(src='@/assets/curso/temas/tema1/img7.svg', alt='Imagen decorativa' width="64px" height="64px")
           .col-lg-7
             h2.text-light ODS - Objetivos Desarrollo Sostenible
-            .text-light.mb-0 Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de las naciones unidas, diríjase a:
+            .text-light.mb-0 Para conocer más acerca de los objetivos del desarrollo sostenible contemplados en la agenda 2030 de las Naciones Unidas, diríjase a:
           .col-lg-3.text-center.my-3
             a.boton.color-acento-botones(href='https://www.un.org/sustainabledevelopment/es/2015/09/la-asamblea-general-adopta-la-agenda-2030-para-el-desarrollo-sostenible/' target="_blank" type="application/pdf")
               span Ir a sitio
@@ -86,7 +86,7 @@
               img(data-aos="zoom-out-right",src="@/assets/curso/temas/tema2/img19.svg", alt="", width= "100px", height="100px")
           .col(style="z-index:1")
             .number 04
-            p.m-0 Objetivos del desarrollo de las naciones unidas.
+            p.m-0 Objetivos del desarrollo de las Naciones Unidas.
       .col-lg-4.crd.crd--avatarHorizontal-left-bgr2.py-3.mb-3
         .row.align-items-center
           .col-auto(style="z-index:1")
@@ -259,7 +259,7 @@
           
             p.my-3.text-center <strong>Figura 2.</strong> Análisis de actores involucrados. 
             figure
-              img(data-aos="fade-up",src='@/assets/curso/temas/tema2/img76.svg', alt='')
+              img(data-aos="fade-up",src='@/assets/curso/temas/tema2/img76.svg', alt='En el análisis de actores involucrados, se detallan los siguientes: - Herramienta más elaborada: mapa de expectativa-fuerza, contemplar los intereses, percepciones, expectativas y el grado de influencia de personas, grupos, comunidades o entidades. - Herramienta de partida: mapa de involucrados, se registra el interés de los actores en el proyecto y sus implicaciones.')
             figcaption Tomado de Ecosistema de Recursos Educativos Digitales SENA (2021) 
 
     p.text-center <strong>Tabla 2.</strong> Ejemplo de herramienta de análisis de involucrados.
@@ -403,7 +403,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img45.png',  alt='')
 
-    p.my-4(data-aos="fade-left") El extensionismo agropecuario, actividad que data del <strong>siglo XIX en Estados Unidos y Europa como una iniciativa de atención a la ruralidad desde los gobiernos con el apoyo del sector privado</strong>, especialmente el productor de tecnología, ha logrado avances muy interesantes y exitosos en el diseño y ejecución de procesos de intervención integrales más que asistenciales. Uno de los casos destacados en Colombia y la región es la <strong>Federación Nacional de Cafeteros</strong> Producto de estas experiencias fortalecidas se encuentran metodologías centradas en la participación de la población, como el <strong>Diagnóstico Rural Participativo (DRP)</strong> y la planificación comunitaria, entre otros ejercicios como los realizados por el <strong>Servicio Nacional de Aprendizaje (SENA)</strong> en sus modelos de intervención hechos hasta la década de los años 90 (por efectos de las políticas coyunturales) a partir de los programas <strong>“Capacitación para la Participación Campesina (CAPACA)”,  “capacitación empresarial campesina”, “la capacitación para la organización y participación comunitaria”, “programa de extensión rural del convenio SENA-Gobierno de Holanda”</strong> y el trabajo  <strong>“SENA-Escuela Nacional de Formación Campesina ANUC-ENFOCA”</strong>, estrategias con productos que se pueden consultar en los repositorios institucionales. 
+    p.my-4(data-aos="fade-left") El extensionismo agropecuario, actividad que data del <strong>siglo XIX en Estados Unidos y Europa como una iniciativa de atención a la ruralidad desde los gobiernos con el apoyo del sector privado</strong>, especialmente el productor de tecnología, ha logrado avances muy interesantes y exitosos en el diseño y ejecución de procesos de intervención integrales más que asistenciales. Uno de los casos destacados en Colombia y la región es la <strong>Federación Nacional de Cafeteros.</strong> Producto de estas experiencias fortalecidas se encuentran metodologías centradas en la participación de la población, como el <strong>Diagnóstico Rural Participativo (DRP)</strong> y la planificación comunitaria, entre otros ejercicios como los realizados por el <strong>Servicio Nacional de Aprendizaje (SENA)</strong> en sus modelos de intervención hechos hasta la década de los años 90 (por efectos de las políticas coyunturales) a partir de los programas <strong>“Capacitación para la Participación Campesina (CAPACA)”,  “capacitación empresarial campesina”, “la capacitación para la organización y participación comunitaria”, “programa de extensión rural del convenio SENA-Gobierno de Holanda”</strong> y el trabajo  <strong>“SENA-Escuela Nacional de Formación Campesina ANUC-ENFOCA”</strong>, estrategias con productos que se pueden consultar en los repositorios institucionales. 
 
   
     figure(data-aos="fade-up")
@@ -851,7 +851,7 @@
           h3.bloque-texto-f__texto  (DNP, 2016, p.15)
           i.fas.fa-quote-right
 
-    p.text-center.my-3 <strong>Figura 3.</strong> Recomendaciones para la correcta definición de un problema.
+    p.text-center.my-3 <strong>Recomendaciones para la correcta definición de un problema.</strong>
     .row.justify-content-center.my-5(data-aos="fade-left")
       .col-lg-5.mb-3
         p.text-center <strong>Forma incorrecta</strong> de definir un problema
@@ -1343,7 +1343,7 @@
     p.mt-5 En el ejemplo del punto cuatro, <strong>el problema uno se encuentra en el cuadrante dos de los problemas críticos y al estar aislado nos da la certeza de ser el problema central.</strong> En caso de que exista más de un problema en este cuadrante, podemos suponer que el problema central estará más alejado de la intersección del plano.
     .row.mb-5.align-items-center.p-3(data-aos="fade-up")(style="background: #FFFAEB")
       .col-lg-10.m-auto
-        p.text-center <strong>Figura 4.</strong> Ejemplo de la forma gráfica de la matriz ID. 
+        p.text-center <strong>Figura 3.</strong> Ejemplo de la forma gráfica de la matriz ID. 
         figure
           img(src="@/assets/curso/temas/tema2/img10.svg", alt="Muestra el componente formativo un ejemplo de la forma gráfica de la matriz ID. Tomado de Silva y Sandoval. Teniendo en cuenta su dependencia e influencia.")
         p.text-center Tomado de Silva y Sandoval (2012).
@@ -1375,14 +1375,14 @@
           .row.justify-content-center(titulo="")
             .col-md-10
               figure
-                p.text-center <strong>Figura 5.</strong> Análisis causa-efecto a través de la “metodología de árboles”.
-                img(src='@/assets/curso/temas/tema2/img77.png', alt='Texto que describa la imagen')
+                p.text-center <strong>Figura 4.</strong> Análisis causa-efecto a través de la “metodología de árboles”.
+                img(src='@/assets/curso/temas/tema2/img77.png', alt='Según el análisis causa-efecto, a mayor capacidad de acción, mayor es el reto que se puede asumir para orientar de manera efectiva los recursos y esfuerzos hacia un objetivo claro, que permita obtener el mayor beneficio e impacto posibles.')
               figcaption Tomado de Ecosistema de Recursos Educativos Digitales SENA (2021).
           .row.justify-content-center(titulo="")
             .col-md-10
               figure
                 p.text-center <strong>Figura 5.</strong> Análisis causa-efecto a través de la “metodología de árboles”.
-                img(src='@/assets/curso/temas/tema2/img78.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema2/img78.png', alt='Las herramientas causa-efecto, se relacionan a continuación: - Diagrama de fechas - Métodos del diagrama de precedencias - Diagrama de pareto - Método de la ruta crítica - Técnica de revisión y evaluación de programas - Diagrama de Ishikawa.')
               figcaption Tomado de Ecosistema de Recursos Educativos Digitales SENA (2021). 
     .row.align-items-center.my-3
       .col-auto
@@ -1421,7 +1421,7 @@
         figure(data-aos="fade-up")
           p.my-3.text-center <strong>Figura 7.</strong> Ejemplo de efectos directos e indirectos. 
           img(src="@/assets/curso/temas/tema2/img11.svg", alt="Muestra el componente formativo un ejemplo de efectos directos e indirectos, teniendo en cuenta: Efectos directos Aumento de impactos ambientales (contaminación fuentes y GEI). Mayor valor de la tarifa de aseo para los usuarios. Efectos Indirectos Alto uso de recursos para obtención de materias primas. Aumento del volumen de toneladas dispuestas en relleno. Pérdida de ingresos por ventas potenciales.")
-        figcaption Tomado de la guía de proyectos del DNP (2016).
+        figcaption.mt-3 Tomado de la guía de proyectos del DNP (2016).
 
 
     .row.align-items-center.my-4
@@ -1432,7 +1432,7 @@
         figure(data-aos="fade-up")
           p.my-3.text-center <strong>Figura 8.</strong> Ejemplo de causas directas e indirectas. 
           img(src="@/assets/curso/temas/tema2/img12.svg", alt="Muestra el componente formativo un ejemplo de causas directas e indirectas, de acuerdo a : Causas directas Deficientes prácticas de separación de materiales. Ineficientes espacios para la valorización de residuos sólidos. Causas Indirectas Inadecuada tradición del manejo de residuos en la fuente. Inapropiado sistema de recolección para el transporte selectivo. Reducida aplicación de tecnología en el proceso de reciclaje. Informalidad y dispersión de los recuperadores.")
-        figcaption Tomado de la guía de proyectos del DNP (2016).
+        figcaption.mt-3 Tomado de la guía de proyectos del DNP (2016).
 
 
     .row.align-items-center.my-4

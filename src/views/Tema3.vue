@@ -424,7 +424,7 @@
 
 
     .row.my-3(data-aos="fade-up")
-      p.text-center <strong>Figura 12.</strong> Resumen narrativo del proyecto.
+      p.text-center <strong>Resumen narrativo del proyecto.</strong> 
       .tarjeta--container.row.mb-2
         .col-md.tarjeta.color-acento-botones.p-4.my-3(style='background: #E1EDB5')
           p.text-bold.m-0 Fin - Objetivo general
@@ -619,7 +619,7 @@
             td 20
             td Crítico
     .div.p-2(style="background: #F4F4F4")
-      p.text-center <strong>Figura 13.</strong> Modelo de matriz de evaluación de riesgos.
+      p.text-center <strong>Figura 12.</strong> Modelo de matriz de evaluación de riesgos.
       .row.mt-5.mb-4.align-items-center.text-center(data-aos="fade-up")
         .col-lg-12.m-auto
           .tabla-b.color-acento-contenido(data-aos="fade-up")
@@ -887,14 +887,14 @@
             th Supuestos
         tbody
           tr
-            td <strong>Fin (Objetivo general)</strong> <br>El fin es una definición de cómo el proyeco o programa contribuirá a la solución del problema (o problemas) del sector.
+            td <strong>Fin (Objetivo general)</strong> <br>El fin es una definición de cómo el proyecto o programa contribuirá a la solución del problema (o problemas) del sector.
             td Miden el impacto general que tendrá el proyecto. Son específicos en términos de cantidad, calidad y tiempo (grupo social y lugar si es relevante).
             td Fuentes de información que se pueden utilizar para verificar si los objetivos se lograron.
             td Indican los acontecimientos, las condiciones importantes necesarias para la sostenibilidad (continuidad en el tiempo) de los beneficios generados por el proyecto.
           tr 
             td <strong> Propósito (Objetivo específico)</strong> <br>El propósito es el impacto directo a ser logrado como resultado de la utilización de los componentes producidos por el proyecto. Es una hipótesis sobre el impacto o beneficio que se desea lograr.
-            td Describen el impacto logrdo al final del proyecto. Deben incluir metas que reflejan la situación al finalizar el proyecto. Cada indicador especifica calidad, cantidad y tiempo de los resultados por alcanzar.
-            td Fuentes que el ejecutor y el evaluador pueden consultar para ver si los objetivos se están logrando. Pueden indicar si exsite un problema y sugieren la necesidad de cambio en los componentes del proyecto. Pueden incluir material publicado, inspección visual, encuestas por muestreo.
+            td Describen el impacto logrado al final del proyecto. Deben incluir metas que reflejan la situación al finalizar el proyecto. Cada indicador especifica calidad, cantidad y tiempo de los resultados por alcanzar.
+            td Fuentes que el ejecutor y el evaluador pueden consultar para ver si los objetivos se están logrando. Pueden indicar si existe un problema y sugieren la necesidad de cambio en los componentes del proyecto. Pueden incluir material publicado, inspección visual, encuestas por muestreo.
             td Indican los acontecimientos, condiciones o las decisiones que tienen que ocurrir para que el proyecto contribuya efectivamente al logro del fin.
           tr
             td <strong> Componentes (Resultados)</strong> <br>Obras, servicios y capacitación que se requiere que complete el ejecutor del proyecto de acuerdo con el trato. Estos deben expresarse en trabajo terminado (sistemas instalados, gente capacitada).
