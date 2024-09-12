@@ -58,10 +58,10 @@
       h2(data-aos="fade-left") 3.1 Análisis de alternativas 
     
     .row.my-3.align-items-center(data-aos="fade-right") 
-      .col-lg-7
+      .col-lg-7.mb-3
         div.p-3(style="background: #FFEDE7")
           .row.my-3.align-items-center 
-            .col-lg-2
+            .col-6.col-lg-2.mb-3
               figure
                 img(src="@/assets/curso/temas/tema3/img6.svg", alt="")
             .col-lg-10
@@ -76,7 +76,7 @@
       .tarjeta--container.row.mb-5
         .col-md.tarjeta.color-acento-botones.p-4(style='background: #E1EDB5')
           .row.justify-content-center.mb-4.align-items-center
-            .col-lg-2.col-md-12
+            .col-lg-2.col-md-12.mb-3
               figure
                 img(src="@/assets/curso/temas/tema2/img65.svg", alt="", width="150px", height="150px")
             .col-lg-8
@@ -84,7 +84,7 @@
               | El planteamiento de las acciones generadoras para <strong>las condiciones que denominamos actividades</strong> (tercer nivel) <strong>de los productos o resultados</strong> (segundo nivel) <strong>y de los medios</strong> (primer nivel, correspondientes a los objetivos específicos y más adelante a los componentes del proyecto).
         .col-md.tarjeta.color-acento-botones.p-4(style='background: #FFF8DA')
           .row.justify-content-center.mb-4.align-items-center
-            .col-lg-10.col-md-12
+            .col-lg-10.col-md-12q.mb-3
               p.text-bold.m-0 El segundo paso
               | La estructuración de las alternativas. Una alternativa resulta de la <strong>conjunción de varias actividades</strong> El número de alternativas resultantes depende de <strong>qué tan compatibles son los medios</strong> (objetivos específicos) <strong>productos y actividades entre sí.</strong>
             .col-lg-2
@@ -320,7 +320,7 @@
       h2(data-aos="fade-left") 3.2 Matriz de marco lógico
     
     .row.align-items-center.p-3.my-5(data-aos="fade-right")
-      .col-lg-4
+      .col-lg-4.mb-3
         figure
           img(src="@/assets/curso/temas/tema2/img74.png", alt="")
       .col-lg-8
@@ -360,7 +360,7 @@
       .col-lg-10.m-auto
         .p-3(style="background: #EFF5D6; border-radius: 20px")
           .row.my-3.align-items-center
-            .col-lg-2
+            .col-lg-2.mb-3
               figure 
                 img(src="@/assets/curso/temas/tema2/img75.svg", alt="", width="150px", height="150px")
             .col-lg-10
@@ -445,7 +445,7 @@
       h2(data-aos="fade-left") 3.3 Indicadores y medios de verificación
 
     .row.mt-5.mb-4.align-items-center(data-aos="fade-left")
-      .col-lg-4
+      .col-lg-4.mb-3
         figure 
           img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen decorativa')
       .col.lg-8
@@ -520,7 +520,7 @@
     h4.text-center(data-aos="fade-right") Otra propuesta de Ortegón et.al (2005) para los criterios de selección de indicadores “correctamente especificados” es hecha a partir de los siguientes criterios:
 
     .row.mt-5.mb-4.align-items-center(data-aos="fade-left")
-      .col-lg-4
+      .col-lg-4.mb-3
         figure 
           img(src='@/assets/curso/temas/tema3/img16.png', alt='Imagen decorativa')
       .col.lg-8

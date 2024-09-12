@@ -370,8 +370,8 @@
         p.text-center Efectos de la globalización de la economía y de tratados comerciales internacionales
     
 
-    row.my-4(data-aos="fade-up")
-      div.p-4.BGM02(style="background: #EFF3F6")
+    row(data-aos="fade-up")
+      div.p-4(style="background: #EFF3F6")
         p.my-4.text-bold.text-center Además, en la actualidad podemos identificar circunstancias problemáticas en torno a:
         ul.lista-ul.px-5
           li 
@@ -395,7 +395,7 @@
       h2(data-aos="fade-left") 2.5 Identificación de problemas a partir de información primaria
 
     .row.align-items-center(data-aos="fade-left")
-      .col-lg-8.my-2
+      .col-lg-8.my-2.mb-3
         p La identificación de problemas por parte de la misma comunidad afectada no solo es importante para la adecuada formulación de un plan de intervención exitoso, <strong>la participación de la población en el proceso de desarrollo es importante para la sostenibilidad de los procesos de mejora en las actividades productivas</strong>, ya que muchas veces el fracaso de los proyectos se atribuye a la falta de sentido de pertenencia de las comunidades con estos, porque algunas veces se hacen intervenciones sin contar siquiera con su opinión al respecto.
         .cajon.color-acento-contenido.p-4(data-aos="slide-down",style="background: #FFE9E1")
           p.mt-0 El paradigma del desarrollo desde abajo viene a contrarrestar las políticas de intervención desde los dirigentes nacionales y grandes actores internacionales <strong>(BM, FMI, tesoro nacional de USA, etc.)</strong> que a partir de los años 80 vienen fomentando la aplicación de políticas derivadas de la receta neoliberal (menor injerencia del estado y mayor orientación del mercado en las dinámicas socioeconómicas) producto del llamado “consenso de Washington”, con un <strong>rotundo fracaso en términos de impacto ambiental y aumento de la brecha social a escala continental.</strong>  
@@ -410,71 +410,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/sGXIL9KjxLQ?si=K62WXo3sF9jq85dm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Lo invitamos a consultar el siguiente video.
-    //- .row.align-items-center.my-5
-    //-   .col-lg-10.m-auto
-    //-     .bloque-texto-f.color-secundario.pt-4.px-5
-    //-       .bloque-texto-f__comillas
-    //-         i.fas.fa-quote-left
-    //-         p.bloque-texto-f__texto El DRP, es una actividad participativa que permite la identificación de los principales problemas técnicos productivos, sociales y de organización para lograr la convivencia con los productores. Con el fin de conocer más de cerca los diferentes aspectos de la comunidad, generando la información básica para la elaboración de los planes de acción comunitaria
-    //-         h3.bloque-texto-f__texto  (DNP, 2016, p.15)
-    //-         i.fas.fa-quote-right     
-
-    //- .row.my-3
-    //-   .col-lg-10.crd.crd--avatarHorizontal-left-bgr1.py-3.mb-3.m-auto
-    //-     .row.align-items-center
-    //-       .col-auto(style="z-index:1")
-    //-         figure
-    //-           img(src="@/assets/curso/temas/tema2/img46.svg", alt="", width= "100px", height="100px")
-    //-       .col(style="z-index:1")
-    //-         p.m-0 El <strong>DRP</strong> es una metodología recomendable para la <strong>autogestión del desarrollo de las comunidades, lo que supone también la autodeterminación, un valor importante de resaltar</strong> Posee de manera inherente ventajas que dependen directamente del grado de participación de los involucrados, entre las que se encuentran la <strong>eficacia en el levantamiento de datos de campo, la verificabilidad, confiabilidad, profundidad y suficiencia de la información obtenida.</strong>
-    
-    //- p.my-4 También ayuda a sensibilizar y motivar la participación de la población ante la posible intervención, fomenta la creatividad en las propuestas de solución y puede conllevar un alto impacto de las propuestas respetando la cultura y la forma de ser de la población, así como complementariedad con la información obtenida de fuentes secundarias. Algunos aspectos a tener en cuenta son, por un lado, la necesidad de <strong>un equipo multidisciplinario que planifique el diagnóstico</strong> y por otro de <strong>recursos y tiempo para el trabajo de campo.</strong> Según Expósito (2003), el DRP consta de siete pasos para su realización: 
-
-    //- AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
-    //-   .row.align-items-center(titulo="1. Delimitar la población objetivo")
-    //-     .col-lg-8.mb-4
-    //-       p Definir el alcance y el objetivo del diagnóstico que puede ser a tres niveles, población más o menos dispersa, organizaciones rurales o empresas agropecuarias y agroindustriales propiamente dichas.
-    //-     .col-lg-4
-    //-       figure
-    //-         img(src='@/assets/curso/temas/tema2/img47.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-    //-   .row.align-items-center(titulo="2. Seleccionar y preparar el equipo facilitador")
-    //-     .col-lg-8.mb-4
-    //-       p El equipo de trabajo debe ser multidisciplinario, pues las poblaciones y sus problemas son de naturaleza multidimensional, y por ende, el enfoque de las actividades de extensión agropecuaria se considera integral, correspondiente con el marco normativo y las necesidades de fortalecimiento de la ruralidad colombiana; además, el trabajo con poblaciones requiere de competencias en el manejo de este tipo de población, así como de una clara vocación de servicio.
-    //-     .col-lg-4
-    //-       figure
-    //-         img(src='@/assets/curso/temas/tema2/img48.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-    //-   .row.align-items-center(titulo="3. Análisis de participantes")
-    //-     .col-lg-8.mb-4
-    //-       p Identificar y caracterizar a todos los participantes para establecer las mejores prácticas y herramientas posibles, adaptando la estrategia de comunicación a las condiciones reales de los sujetos de la intervención e identificando los liderazgos que pueden ayudan a la eficacia del proceso.
-    //-     .col-lg-4
-    //-       figure
-    //-         img(src='@/assets/curso/temas/tema2/img49.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-    //-   .row.align-items-center(titulo="4. Análisis de expectativas")
-    //-     .col-lg-8.mb-4
-    //-       p Comunicar las expectativas de todos los actores ayudará a establecer metas comunes que motivan la participación y la intención para generar cambios en especial si tienen que ver con la calidad de vida de la población. Aquí hay que prestar una especial atención a cuestiones de género.
-    //-     .col-lg-4
-    //-       figure
-    //-         img(src='@/assets/curso/temas/tema2/img50.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-    //-   .row.align-items-center(titulo="5. Identificación de las necesidades de información")
-    //-     .col-lg-8.mb-4
-    //-       p La información, su calidad, precisión, especificidad, etc. debe ser suficiente para que no queden vacíos en el momento de procesarla durante la formulación del proyecto y el planteamiento de las alternativas de intervención. Esta información debe corresponder a la realidad rural, las estructuras sociales, las relaciones de género, familiares y demás condiciones culturales y particulares de la población objetivo.
-    //-     .col-lg-4
-    //-       figure
-    //-         img(src='@/assets/curso/temas/tema2/img51.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-    //-   .row.align-items-center(titulo="6. Selección de las herramientas de investigación")
-    //-     .col-lg-8.mb-4
-    //-       p La selección de herramientas debe obedecer no solo a las necesidades de información orientada a la formulación del proyecto, sino también a las preferencias de la misma población. También es importante considerar la información desagregada por género de la población en situación de vulnerabilidad y discapacidad, de minorías, etc.; es decir con un enfoque diferencial. También se recomienda revisar información ya obtenida en otros procesos. Existe un conjunto muy amplio de herramientas participativas que se han diseñado precisamente debido a las condiciones de la población rural, uno de los campos de acción de la andragogía.
-    //-     .col-lg-4
-    //-       figure
-    //-         img(src='@/assets/curso/temas/tema2/img52.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-    //-   .row.align-items-center(titulo="7. Diseñar y planificar el proceso de diagnóstico")
-    //-     .col-lg-8.mb-4
-    //-       p El éxito del proceso de diagnóstico, al igual que el éxito del proyecto de intervención, depende en gran medida de una buena planificación. Se requiere establecer el tamaño, las características del equipo de trabajo, el cronograma de actividades, la localización, medios de transporte, los materiales y otros recursos requeridos, etc.
-    //-     .col-lg-4
-    //-       figure
-    //-         img(src='@/assets/curso/temas/tema2/img53.svg', alt='Texto que describa la imagen', style='max-width:170px; max-height:170px; margin: auto')
-
-    
+       
 
     .row.align-items-center.my-3(style="background: #EEF5D5")(data-aos="fade-up")
       p.my-4 La información de primera mano es muy valiosa y requiere de un recurso metodológico que puede ser el DRP.
@@ -487,8 +423,8 @@
     .row.justify-content-center.mx-2.p-4(style="background: #EBEBEB")
       .col-lg-5
         strong De aplicación general:
-        .row
-          .col-lg-3.my-3
+        .row.justify-content-center.mt-3
+          .col-6.col-lg-3.my-3
             figure
               img(src='@/assets/curso/temas/tema2/img79.svg', alt='')
           .col-lg-7.my-3
@@ -516,8 +452,8 @@
                 | Observación participante.          
       .col-lg-5
         strong De aspectos sociales:
-        .row
-          .col-lg-3.my-3
+        .row.justify-content-center.mt-3
+          .col-6.col-lg-3.my-3
             figure
               img(src='@/assets/curso/temas/tema2/img80.svg', alt='')
           .col-lg-7.my-3
@@ -558,8 +494,8 @@
     .row.justify-content-center.mx-2.p-4(style="background: #E6E6E6")
       .col-lg-5
         strong Manejo de recursos naturales:
-        .row
-          .col-lg-3.my-3
+        .row.justify-content-center.mt-3
+          .col-6.col-lg-3.my-3
             figure
               img(src='@/assets/curso/temas/tema2/img81.svg', alt='')
           .col-lg-7.my-3
@@ -599,8 +535,8 @@
                 | Censo de problemas de uso de recursos (basado en diagrama de corte).          
       .col-lg-5
         strong De aspectos sociales:
-        .row
-          .col-lg-3.my-3
+        .row.justify-content-center.mt-3
+          .col-6.col-lg-3.my-3
             figure
               img(src='@/assets/curso/temas/tema2/img82.svg', alt='')
           .col-lg-7.my-3
@@ -653,8 +589,8 @@
     .row.justify-content-center.mx-2.p-4(style="background: #EBEBEB")
       .col-lg-5
         strong Producción animal:
-        .row
-          .col-lg-3.my-3
+        .row.justify-content-center.mt-3
+          .col-6.col-lg-3.my-3
             figure
               img(src='@/assets/curso/temas/tema2/img83.svg', alt='')
           .col-lg-7.my-3
@@ -676,8 +612,8 @@
                 | Análisis de problemas veterinarios.          
       .col-lg-5
         strong Aspectos de género:
-        .row
-          .col-lg-3.my-3
+        .row.justify-content-center.mt-3
+          .col-6.col-lg-3.my-3
             figure
               img(src='@/assets/curso/temas/tema2/img84.svg', alt='')
           .col-lg-7.my-3
@@ -700,8 +636,8 @@
     .row.justify-content-center.mx-2.p-4(style="background: #E6E6E6")
       .col-lg-5
         strong Comunicación y extensión:
-        .row
-          .col-lg-3.my-3
+        .row.justify-content-center.mt-3
+          .col-6.col-lg-3.my-3
             figure
               img(src='@/assets/curso/temas/tema2/img85.svg', alt='')
           .col-lg-7.my-3
@@ -717,8 +653,8 @@
                 | Matriz de necesidades prioritarias de extensión / asistencia técnica.        
       .col-lg-5
         strong Análisis de problemas y soluciones:
-        .row
-          .col-lg-3.my-3
+        .row.justify-content-center.mt-3
+          .col-6.col-lg-3.my-3
             figure
               img(src='@/assets/curso/temas/tema2/img86.svg', alt='')
           .col-lg-7.my-3
@@ -759,8 +695,8 @@
     .row.justify-content-center.mx-2.p-4(style="background: #EBEBEB")
       .col-lg-5
         strong Planificación:
-        .row
-          .col-lg-3.my-3
+        .row.justify-content-center.mt-3
+          .col-6.col-lg-3.my-3
             figure
               img(src='@/assets/curso/temas/tema2/img87.svg', alt='')
           .col-lg-7.my-3
@@ -788,8 +724,8 @@
                 | Matriz de toma de responsabilidades.        
       .col-lg-5
         strong Monitoreo y evaluación participativos:
-        .row
-          .col-lg-3.my-3
+        .row.justify-content-center.mt-3
+          .col-6.col-lg-3.my-3
             figure
               img(src='@/assets/curso/temas/tema2/img88.svg', alt='')
           .col-lg-7.my-3
@@ -1384,10 +1320,10 @@
                 p.text-center <strong>Figura 5.</strong> Análisis causa-efecto a través de la “metodología de árboles”.
                 img(src='@/assets/curso/temas/tema2/img78.png', alt='Las herramientas causa-efecto, se relacionan a continuación: - Diagrama de fechas - Métodos del diagrama de precedencias - Diagrama de pareto - Método de la ruta crítica - Técnica de revisión y evaluación de programas - Diagrama de Ishikawa.')
               figcaption Tomado de Ecosistema de Recursos Educativos Digitales SENA (2021). 
-    .row.align-items-center.my-3
+    .row.my-3
       .col-auto
         img(src='@/assets/curso/temas/tema2/img3.svg', alt='Imagen decorativa')
-      .col.px-0
+      .col.px-0.align-content-center
         h3.mb-0(data-aos="zoom-in")  Árbol de problemas
 
     .row.align-items-center.my-4(data-aos="fade-left")
