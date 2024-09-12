@@ -300,9 +300,9 @@
             h2.text-light Análisis de Involucrados
             .text-light.mb-0 Para la revisión de una herramienta más completa de análisis de involucrados incluyendo la aplicación de la matriz de expectativa-fuerza con ejemplos ilustrativos, diríjase a:
           .col-lg-3.text-center.my-3
-            a.boton.color-acento-botones(href='https://ecored-sena.github.io/TECNICO_AGROPECUARIO_CF2/public/media/documentos/IF04_INVOLUCRADOS.pdf' target="_blank" type="application/pdf")
-              span Ir a sitio
-              i.fas.fa-link
+            a.boton.color-acento-botones(:href="obtenerLink('/downloads/IF04_INVOLUCRADOS.pdf')" target="_blank")
+              span Descargar
+              i.fas.fa-file-download
 
       .col-lg-4.mb-2.my-3
         figure
